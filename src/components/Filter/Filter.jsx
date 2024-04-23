@@ -5,6 +5,10 @@ import CartsList from './constants/CartsList';
 import "../../styles/filterstyle.css"
 import Slider from '../Slider';
 import SecCartsList from './constants/SecCartsList.jsx';
+import { CgWorkAlt } from 'react-icons/cg';
+import { MdWorkspacesOutline } from 'react-icons/md';
+import $ from 'jquery'; 
+
 
 
 
@@ -20,11 +24,16 @@ const filterCarts = (searchText, listOfCarts) => {
 
 }
 
+
+
+
 export default function Filter() {
 
   const [cartsList, setCartsList] = useState(data);
   const [secCartsList, setSecCartList] = useState(secData);
   const [searchTerm, setSearchTerm] = useState('');
+  const [isOpen, setIsOpen] = useState('');
+  const [secIsOpen, setSecIsOpen] = useState('');
 
 
 
@@ -36,10 +45,32 @@ export default function Filter() {
       setSecCartList(secFilteredCarts);
     }, 300);
 
+
     
 
     return () => clearTimeout(Debounce);
   }, [searchTerm]);
+
+
+  const visib = () => {
+
+    if(secIsOpen) {
+
+      setSecIsOpen(!isOpen)
+      setIsOpen(!isOpen)
+
+    }
+ }
+
+ const secvisib = () => {
+
+  if(!isOpen) {
+    setIsOpen(!isOpen)
+    setSecIsOpen(!secIsOpen)
+  }
+
+  
+}
 
 
   return (
@@ -61,14 +92,20 @@ export default function Filter() {
         </div>
         </div>
         <h1 className='ss'>Отрасли</h1>
-        <div className="l">
+        <div className={`d ${isOpen ? "d___active" : ""}`}>
         <CartsList cartsList={cartsList} />
         </div>
         <h1 className='ss'>Специальности</h1>
-        <div className="l">
+        <div className={`l ${secIsOpen ? "l___active" : ""}`}>
         <SecCartsList secCartsList={secCartsList} />
         </div>
       </div>
+      <footer className='footgr'>
+        <div className="mobf">
+        <a className={`af ${!isOpen ? "af___active" : ""}`} onClick={visib}><MdWorkspacesOutline/><p>Отрасли</p></a>
+        <a className={`af ${secIsOpen ? "af___active" : ""}`} onClick={secvisib}><CgWorkAlt /><p>Специальности</p></a>
+        </div>
+    </footer>
     </div>
   )
 }
