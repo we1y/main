@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import Atlas from "./Pages/Atlas";
 import ItemPage from "./Pages/ItemPage";
 import ScrollToTop from "./components/ScrollToTop";
