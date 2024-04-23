@@ -1,0 +1,431 @@
+
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+
+.items {
+    margin-top: 55px;
+    min-height: 100vh;
+}
+
+.diplom{
+    background-color: rgb(246,248,252);
+    padding: 40px;
+
+}
+
+.diplom button {
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(0,98,255);
+    color: white;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.diplom button:hover {
+    background-color: rgba(0, 98, 255, 0.753);
+    transform: translateY(-2px);
+}
+
+.diplominfo {
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.diplominfo h1 {
+    color: black;
+}
+
+.diplominfo p {
+    color: black;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.dipimg {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.897);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    padding-top: 70px;
+    visibility: hidden;
+    transition: .2s ease-in-out;
+    opacity: 0;
+}
+
+.dipimg__active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.dipimg__active span {
+    position: absolute;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+}
+
+
+.bacs {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    background-image: url('../assets/imageedit_1_5356012574.jpg');
+    background-size: 100%;
+}
+
+.forms {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+
+.formcont {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.fform {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 34px;
+    transition: .2s linear;
+    border: 3px solid rgb(246,248,252);
+    border-radius: 6px;
+    margin-left: 38px;
+    margin-right: -38px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: start; 
+    height: calc(92% - 38px);
+}
+
+.formcont > * {
+    width: calc(33% - 38px);
+}
+
+
+.fform:hover {
+    background-color: rgba(215, 232, 255, 0.158);
+    border-color: rgb(246,248,252);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.fopis {
+    padding: 20px 0;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+    text-transform: none;
+}
+
+.otkr {
+   text-align: center;
+   padding: 50px;
+   background-color: rgb(246,248,252);
+   margin-top: -10px;
+   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.otkr p {
+    margin: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(104, 104, 104);
+}
+
+.otkr h1 {
+    color: rgb(0,98,255);
+    font-size:60px;
+    margin-top: 200px;
+}
+
+.otkr a {
+    background-color: rgb(0,98,255);
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 6px 15px;
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+
+.otkr a:hover {
+    background-color: rgba(0, 98, 255, 0.753);
+    transform: translateY(-2px);
+}
+
+.otkr input {
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+    font-weight: 600;
+    outline: none;
+}
+
+.otkr button {
+    padding: 10px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    cursor: pointer;
+    
+}
+
+.downarr {
+    font-size: 50px;
+    cursor: pointer;
+    animation: updown 2s infinite;
+    position: relative;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    color: rgb(0,98,255);
+}
+
+.clpbtns {
+    display: flex;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    width: 225px;
+    margin-bottom: 150px;
+}
+
+
+.otkr img:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+.reviews {
+    text-align: center;
+    margin: 70px 150px;
+}
+
+.reviews h1 {
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+
+.wrapper {
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.wrapper:before, .wrapper:after {
+
+    content: "";
+    position: absolute;
+    width: 150px;
+    z-index: 2;
+
+}
+
+
+.wrapper:after {
+
+    right: 0;
+    top: 0;
+    transform: rotateZ('180deg');
+
+}
+
+.wrapper:before{
+
+    left: 0;
+    top: 0;
+}
+
+.wrapper .track {
+    display: flex;
+    
+    animation: scroll 30s 0.1s linear infinite;
+}
+
+.wrapper .review {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    width: 220px;
+}
+
+.profilerev {
+    display: flex;
+    align-items: center;
+    
+}
+
+.profilerev h1 {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.profilerev p {
+    margin-right: 10px;
+    font-weight: 900;
+    color: rgb(104, 104, 104);
+}
+
+.profilerev img {
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textrev {
+    font-weight: 500;
+    
+    padding: 10px;
+}
+
+
+
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-1000px));
+    }
+}
+
+@keyframes updown {
+    0% {
+        bottom: 20px;
+    }
+
+    50% {
+        bottom: 0px;
+    }
+
+    100% {
+        bottom: 20px;
+    }
+}
+
+
+
+
+@media (max-width: 1600px) {
+
+    .downarr {
+        margin-top: 110px;
+    }
+
+}
+
+@media (max-width: 960px) {
+
+    .fopis {
+        font-size: 18px;
+    }
+
+    .formcont {
+        flex-direction: column;
+    }
+
+    .formcont > * {
+        width: calc(93% - 38px);
+        
+    }
+
+    .otkr {
+        height: 600px;
+    }
+
+
+    
+
+    .downarr {
+        display: none;
+    }
+
+    .diplom button {
+        display: none;
+    }
+
+    .otkr h1{
+
+        margin-top: 120px;
+        font-size: 45px;
+        
+    }
+
+    .reviews {
+        margin: 70px 10px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .fform {
+
+        padding: 10px;
+
+        
+        
+    }
+
+    .otkr h1{
+
+        margin-top: 30px;
+        
+    }
+
+
+    .formcont > * {
+        width: calc(85% - 38px);
+    }
+
+    .fopis {
+        display: none;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+
+    .otkr h1{
+
+        font-size: 40px;
+        margin-top: 50px;
+        
+    }
+
+}

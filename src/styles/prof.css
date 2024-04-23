@@ -1,0 +1,342 @@
+
+
+.cnt {
+    background-color: rgb(246,248,252);
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    height: 900px;
+}
+
+.cnt button {
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(0,98,255);
+    color: white;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.cnt button:hover {
+    background-color: rgba(0, 98, 255, 0.753);
+    transform: translateY(-2px);
+}
+
+.cnt h1 {
+    font-size:60px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 250px;
+    color: rgb(0,98,255);
+}
+
+.cnt h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+}
+
+.quiztime {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.quiztime p {
+    margin: 10px;
+    background-color: rgb(228, 228, 228);
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.quiz {
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.897);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+
+.quiz___active {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.quiz span {
+    color: rgb(141, 141, 141);
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+    padding: 5px;
+    border-radius: 50px;
+    transition: .2s ease-in-out;
+}
+
+.quiz span:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+.quizzes {
+    background-color: rgb(246,248,252);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.quizzname {
+    border-bottom: solid 1.5px rgb(214, 214, 214);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.quizzname h1 {
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+}
+
+.quizzes button {
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(0,98,255);
+    color: white;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+
+.btnsquiz {
+    display: flex;
+    align-items: center;
+}
+
+.btnsquiz span {
+    margin-left: 5px;
+}
+
+
+.quizzes button:hover {
+    background-color: rgba(0, 98, 255, 0.753);
+    
+}
+
+.quizcont {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.quizcont h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.progressbar {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+progress {
+    width: 380px;
+}
+
+.progtext {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.progressbar p {
+    margin: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.progdisc {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.p{
+    display: none;
+    opacity: 0;
+    font-size: 15px;
+}
+
+.p___active {
+    display: grid;
+    opacity: 1;
+}
+
+.progdisc h3 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+
+.profresult {
+    text-align: left;
+    overflow-y: scroll;
+    
+    margin-bottom: 20px;
+}
+
+.profresult p {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.profresult h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 22px;
+    color: rgb(43, 43, 43);
+}
+
+.successresult {
+    background-color: rgb(0,98,255);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+.profresult h3 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1600px) {
+
+
+
+}
+
+
+@media (max-width: 960px) {
+
+
+
+}
+
+@media (max-width: 800px) {
+
+.cnt h1 {
+    font-size: 45px;
+    margin: 0 20px;
+}
+
+.cnt h2 {
+    font-size: 16px;
+}
+
+.quizzes {
+
+    margin-top: 30px;
+    width: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.quizzname h1 {
+    font-size: 16px;
+}
+
+.quizcont {
+    width: auto;
+}
+
+.progressbar {
+    width: 250px;
+}
+.progtext {
+    width: 150px;
+}
+
+.quizcont h3 {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.quizcont button {
+    font-size: 16px;
+}
+
+.progdisc {
+    margin: 0 40px;
+}
+
+.progdisc p {
+    font-size: 14px;
+}
+
+.profresult {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.profresult h1{
+    font-size: 18px;
+}
+
+.totalscoreresult p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+
+}
+
+
+@media (max-width: 540px) {
+
+    .cnt h1 {
+        font-size: 30px;
+    }
+
+    .cnt h2 {
+        font-size: 14px;
+    }
+
+}

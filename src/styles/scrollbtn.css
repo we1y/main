@@ -1,0 +1,24 @@
+
+
+.scrb button {
+    position: fixed;
+    background-color: #0062ff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    z-index: 1;
+    bottom: 120px;
+    right: 50px;
+    cursor: pointer;
+    opacity: 1;
+    color: white;
+}
+
+.scrb button:hover {
+    background-color: rgb(18, 109, 255);
+}
+
+.tooltip {
+    z-index: 1000;
+}
