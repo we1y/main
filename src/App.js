@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
       <ScrollToTop />
       <Routes>
-      <Route path="/" element={<Main />} />
+      <Route path="/main" element={<Main />} />
       <Route path="/atlas" element={<Atlas />} />
       <Route path="/proforient" element={<ProfOrient />} />
       <Route path="industry/:id" element={<ItemPage />}/>
