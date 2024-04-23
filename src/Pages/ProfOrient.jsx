@@ -45,7 +45,7 @@ export default function ProfOrient () {
 
       <div className={`quiz ${isOpen ? "quiz___active" : ""}`}>
         <div className="quizzes">
-          <div className="quizzname"><h1>Профориентационное тестирование</h1><div className="btnsquiz"><VKShareButton title='поделиться' url={shareUrl}><span className='material-symbols-outlined' style={{paddingRight: 7}}>share</span></VKShareButton><span className='material-symbols-outlined' onClick={refreshPage}>close</span></div></div>
+          <div className="quizzname"><h1>Профориентационное тестирование</h1><div className="btnsquiz"><VKShareButton title='поделиться' url={shareUrl}><span className='material-symbols-outlined' style={{paddingRight: 7}}>share</span></VKShareButton><span className='material-symbols-outlined' onClick={() => setOpen(!isOpen)}>close</span></div></div>
           <div className="quizcont">
           <Quiz />
            </div>
