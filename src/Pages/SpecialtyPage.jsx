@@ -62,7 +62,7 @@ useScript(infoToShow.vac)
 
         <p>{infoToShow.skills}</p>
 
-        <div className="hh-script"></div>
+        {/* <div className="hh-script"></div> */}
 
       
 
