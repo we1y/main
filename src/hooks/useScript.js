@@ -6,6 +6,7 @@ const useScript = url => {
     script.src = url;
     script.crossOrigin = "anonymous";
     script.className = "hh-script"
+    script.async = true
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);

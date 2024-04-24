@@ -21,7 +21,7 @@ const infoToShow = secData.find((item) => item.id === Number(id));
 
 
 
-// useScript(infoToShow.vac)
+useScript(infoToShow.vac)
 
   return (
 
@@ -62,7 +62,7 @@ const infoToShow = secData.find((item) => item.id === Number(id));
 
         <p>{infoToShow.skills}</p>
 
-        {/* <div className="hh-script"></div> */}
+        <div className="hh-script"></div>
 
       
 
