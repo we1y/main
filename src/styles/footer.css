@@ -47,9 +47,10 @@ section li a:hover {
 
 .footer-content {
     margin: 10px 50px;
-    
-    
-    
+}
+
+.footer-content img {
+    width: 400px;
 }
 
 section img {

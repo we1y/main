@@ -57,6 +57,12 @@ const infoToShow = data.find((item) => item.id === Number(id));
         <h1>Описание: </h1>
         <p>{infoToShow.inf}</p>
 
+        <h1>Специальности по этим отраслям:</h1>
+
+
+
+        {infoToShow.species}
+
       
 
           

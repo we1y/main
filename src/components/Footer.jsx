@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/footer.css'
 import 'boxicons'
 import { Link } from 'react-router-dom'
-import logo from '../assets/logos.png'
+import logo from '../assets/headlogo.png'
 
 
 

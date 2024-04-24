@@ -62,6 +62,10 @@ useScript(infoToShow.vac)
 
         <p>{infoToShow.skills}</p>
 
+        <h1>Филлиалы с этими специальностями:</h1>
+        {infoToShow.fil}
+
+
         <div className="hh-script"></div>
 
       

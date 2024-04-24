@@ -174,8 +174,7 @@ export default function Main() {
       </div>
     </div>
     <div className='map' style={{marginBottom: -5}}>   
-    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A816055aac504fea416c64dd04fdcf7341cf0130315a03c3f80ae23706ea2d375&amp;source=constructor" width="100%" height="400" frameborder="none">
-    </iframe>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A816055aac504fea416c64dd04fdcf7341cf0130315a03c3f80ae23706ea2d375&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
     </div>
     </div>
     <Footer />

@@ -7,8 +7,6 @@ import SpecialtyPage from "./Pages/SpecialtyPage";
 import ProfOrient from "./Pages/ProfOrient";
 
 
-
-
 function App() {
   
   return (
@@ -19,7 +17,7 @@ function App() {
       <Route path="/main" element={<Main />} />
       <Route path="/atlas" element={<Atlas />} />
       <Route path="/proforient" element={<ProfOrient />} />
-      <Route path="industry/:id" element={<ItemPage />}/>
+      <Route path="industry/:id" element={<ItemPage />} />
       <Route path="specialty/:id" element={<SpecialtyPage/>}/>
       </Routes>
       </BrowserRouter>
