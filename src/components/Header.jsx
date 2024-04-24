@@ -21,7 +21,7 @@ const Header = () => {
 	<Link to='/main'><img src={logo} className="navlogo"/></Link>
 			<nav ref={navRef}>
 				<NavLink to="/main">Главная</NavLink>
-				<NavLink to="/atlas">Атлас профессий</NavLink>
+				<NavLink to="/navigator">Навигатор профессий</NavLink>
 				<NavLink to="/proforient">Профориентация</NavLink>
 				<button
 					className="nav-btn nav-close-btn"

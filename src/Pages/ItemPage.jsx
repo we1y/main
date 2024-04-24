@@ -40,7 +40,7 @@ const infoToShow = data.find((item) => item.id === Number(id));
         <div className="ip">
 
 
-        <div className="ssil"><a href="/" className='atlk'>Главная</a><div className='strel'>&gt;</div><a href="/atlas" className='atlk'>Атлас профессий</a> <div className='strel'>&gt;</div><a>Отрасли</a> <div className='strel'>&gt;</div> <a>{infoToShow.ot}</a> </div>
+        <div className="ssil"><a href="/main" className='atlk'>Главная</a><div className='strel'>&gt;</div><a href="/navigator" className='atlk'>Атлас профессий</a> <div className='strel'>&gt;</div><a>Отрасли</a> <div className='strel'>&gt;</div> <a>{infoToShow.ot}</a> </div>
 
         <div className="infcontn">
 

@@ -40,7 +40,7 @@ useScript(infoToShow.vac)
         <div className="ip">
 
 
-        <div className="ssil"><a href="/" className='atlk'>Главная</a><div className='strel'>&gt;</div><a href="/atlas" className='atlk'>Атлас профессий</a> <div className='strel'>&gt;</div> <a>Специальности</a> <div className='strel'>&gt;</div> <a>{infoToShow.pr}</a></div>
+        <div className="ssil"><a href="/main" className='atlk'>Главная</a><div className='strel'>&gt;</div><a href="/navigator" className='atlk'>Атлас профессий</a> <div className='strel'>&gt;</div> <a>Специальности</a> <div className='strel'>&gt;</div> <a>{infoToShow.pr}</a></div>
 
         <div className="infcontn">
 

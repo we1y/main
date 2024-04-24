@@ -9,8 +9,8 @@ import ContextMenuButton from '../components/ContextMenuButton'
 import profilePhoto from '../assets/profile.png'
 import { useState } from 'react'
 import diplom from "../assets/diplom_img2.jpg"
-import { IoChevronDown } from 'react-icons/io5'
 import { VKShareButton } from 'react-share'
+import 'animate.css';
 
 
 
@@ -114,7 +114,7 @@ export default function Main() {
       <h1>Мы обязательно поможем тебе с выбором</h1>
       <p>Быстрый и удобный сервис для поиска специальности</p>
       <div className="clpbtns">
-      <Link to='/atlas'>Атлас профессий</Link>
+      <Link to='/navigator'>Навигатор профессий</Link>
       <VKShareButton url={shareUrl} title="Лучший сервис по подбору профессии" style={{marginLeft: 20, color: '#262626'}} data-tooltip-id="my-dtooltip" data-tooltip-content='Поделиться'><span className='material-symbols-outlined'>share</span></VKShareButton>
       </div>
       {/* <div className="downarr" onClick={handleScroll} data-tooltip-id="my-dtooltip" data-tooltip-content="Нажми, чтобы спуститься вниз">

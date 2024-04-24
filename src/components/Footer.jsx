@@ -24,7 +24,7 @@ export default function Footer() {
       <div className="footer-content">
         <h4>ССЫЛКИ</h4>
         <li><Link to='/main'>Главная</Link></li>
-        <li><Link to='/atlas'>Атлас профессий</Link></li>
+        <li><Link to='/navigator'>Навигатор профессий</Link></li>
         <li><Link to='/proforient'>Профориентация</Link></li>
       </div>
       <div className="footer-content">
