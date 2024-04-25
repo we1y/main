@@ -1,0 +1,109 @@
+.formscont {
+background-color: rgb(246,248,252);
+    padding-top: 50px;
+    border: 1px solid rgb(233, 233, 233);
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.fortext {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.fortext h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+.fortext p{
+    font-size: 18px;
+}
+
+.formes {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.formesbtn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formesbtn span {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid rgb(233, 233, 233);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+}
+
+.formestext {
+    border-bottom: 1px solid rgb(233, 233, 233);
+    border-left: 1px solid rgb(233, 233, 233);
+    border-right: 1px solid rgb(233, 233, 233);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 1500px) {
+    .formscont {
+        display: block;
+    }
+
+    .fortext {
+        margin-bottom: 70px;
+        margin-top: -30px;
+    }
+
+    .formestext {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .formesbtn span {
+        font-size: 18px;
+        padding: 10px 10px;
+        
+    }
+
+    .formestext {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .formesbtn span {
+        font-size: 17px;
+        padding: 10px 4px;
+        font-weight: 600;
+        
+    }
+}
+
+@media (max-width: 390px) {
+    .formesbtn span {
+        font-size: 16px;
+        padding: 10px 4px;
+        font-weight: 600;
+        
+    }
+}

@@ -3,6 +3,9 @@
     font-family: "IBM Plex Sans", sans-serif;
 }
 
+.map {
+    border-top: 1px solid rgb(233, 233, 233);
+}
 
 .items {
     margin-top: 55px;
@@ -10,9 +13,9 @@
 }
 
 .diplom{
-    background-color: rgb(246,248,252);
-    padding: 40px;
-
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 50px;
 }
 
 .diplom button {
@@ -145,7 +148,7 @@
    padding: 50px;
    background-color: rgb(246,248,252);
    margin-top: -10px;
-   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+   border-bottom: 1px solid rgb(233, 233, 233);
 }
 
 .otkr p {
@@ -194,18 +197,6 @@
     
 }
 
-.downarr {
-    font-size: 50px;
-    cursor: pointer;
-    animation: updown 2s infinite;
-    position: relative;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 250px;
-    color: rgb(0,98,255);
-}
-
 .clpbtns {
     display: flex;
     align-items: center;
@@ -220,17 +211,22 @@
     transform: translateY(-5px);
 }
 
-
-.gallery {
-    margin: 20px 10px;
-   text-align: center;
+.collegeinfo {
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.gallery h1 {
-    margin: 30px;
+.collegeinfo h1 {
+    font-size: 40px;
+}
+
+.collegeinfo p {
+    font-size: 20px;
     font-weight: 500;
 }
-
 
 
 @keyframes scroll {

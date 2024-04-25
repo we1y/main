@@ -12,6 +12,8 @@ import { VKShareButton } from 'react-share'
 import Gallery from "react-photo-gallery";
 
 import Photo1 from '../assets/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.jpg'
+import Forms from '../components/Forms'
+
 
 
 
@@ -96,7 +98,7 @@ export default function Main() {
       <VKShareButton url={shareUrl} title="Лучший сервис по подбору профессии" style={{marginLeft: 20, color: '#262626'}} data-tooltip-id="my-dtooltip" data-tooltip-content='Поделиться'><span className='material-symbols-outlined'>share</span></VKShareButton>
       </div>
       </div>
-      <div className="bacs">
+      {/* <div className="bacs">
         <div className="forms">
         
         <h1>ФОРМА ОБУЧЕНИЯ</h1>
@@ -112,7 +114,19 @@ export default function Main() {
           ))}
         </div>
         </div>
+      </div> */}
+      
+      <div className="collegeinfo">
+        <h1>
+          
+          Профессиональное образование в Московской области! 
+          </h1>
+          <p>Различные направления подготовки: от технологий до экономики и управления,
+ современные лаборатории и оборудование для практических занятий, опытные преподаватели
+  с индустриальным опытом, широкие возможности для стажировок и трудоустройства,
+   а также комфортные условия для обучения и отдыха.</p>
       </div>
+      <Forms />
       <div className="diplom">
         <div onClick={() => setOpen(!isOpen)} className={`dipimg ${isOpen ? "dipimg__active" : ""}`}><img src={diplom} alt="" /><span className='material-symbols-outlined' onClick={() => setOpen(!isOpen)}>close</span></div>
         <div className="diplominfo">
@@ -124,16 +138,7 @@ export default function Main() {
 
       </div>
 
-      <div className="gallery">
-
-          <h1>Наша жизнь</h1>
-        
-        
-   
-        <Gallery photos={photos}/>
-      
-
-      </div>
+  
       
       </div>
 
