@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8311d2b.css",
-    "main.js": "/static/js/main.afdadaa0.js",
+    "main.css": "/static/css/main.206348ec.css",
+    "main.js": "/static/js/main.0bb0919b.js",
     "static/media/diplom_img2.jpg": "/static/media/diplom_img2.bf6dda7641e16c039c1a.jpg",
+    "static/media/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.jpg": "/static/media/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.e0cbd007b96df13360fe.jpg",
     "static/media/imageedit_1_5356012574.jpg": "/static/media/imageedit_1_5356012574.ec83929a1cd3940b4fc8.jpg",
     "static/media/findir.svg": "/static/media/findir.5036cfdb7a81f7bad99f795d6e4817df.svg",
     "static/media/pixeldigivolvecyrillic.svg": "/static/media/pixeldigivolvecyrillic.d618b86f33d7eaecf61148629695de23.svg",
-    "static/media/profile.png": "/static/media/profile.8d49e377c7c342895ec2.png",
+    "static/media/asdadaaa.png": "/static/media/asdadaaa.812190c9383b8095a672.png",
     "static/media/headlogo.png": "/static/media/headlogo.5e87d85f1450fa57a49e.png",
     "index.html": "/index.html",
-    "main.f8311d2b.css.map": "/static/css/main.f8311d2b.css.map",
-    "main.afdadaa0.js.map": "/static/js/main.afdadaa0.js.map"
+    "main.206348ec.css.map": "/static/css/main.206348ec.css.map",
+    "main.0bb0919b.js.map": "/static/js/main.0bb0919b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8311d2b.css",
-    "static/js/main.afdadaa0.js"
+    "static/css/main.206348ec.css",
+    "static/js/main.0bb0919b.js"
   ]
 }
