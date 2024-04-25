@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.206348ec.css",
-    "main.js": "/static/js/main.0bb0919b.js",
+    "main.css": "/static/css/main.bd7ba330.css",
+    "main.js": "/static/js/main.5a536e9b.js",
     "static/media/diplom_img2.jpg": "/static/media/diplom_img2.bf6dda7641e16c039c1a.jpg",
     "static/media/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.jpg": "/static/media/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.e0cbd007b96df13360fe.jpg",
     "static/media/imageedit_1_5356012574.jpg": "/static/media/imageedit_1_5356012574.ec83929a1cd3940b4fc8.jpg",
@@ -10,11 +10,11 @@
     "static/media/asdadaaa.png": "/static/media/asdadaaa.812190c9383b8095a672.png",
     "static/media/headlogo.png": "/static/media/headlogo.5e87d85f1450fa57a49e.png",
     "index.html": "/index.html",
-    "main.206348ec.css.map": "/static/css/main.206348ec.css.map",
-    "main.0bb0919b.js.map": "/static/js/main.0bb0919b.js.map"
+    "main.bd7ba330.css.map": "/static/css/main.bd7ba330.css.map",
+    "main.5a536e9b.js.map": "/static/js/main.5a536e9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.206348ec.css",
-    "static/js/main.0bb0919b.js"
+    "static/css/main.bd7ba330.css",
+    "static/js/main.5a536e9b.js"
   ]
 }
