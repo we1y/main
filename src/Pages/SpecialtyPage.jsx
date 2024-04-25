@@ -6,7 +6,7 @@ import '../styles/itempage.css'
 import  { secData }  from '../components/Filter/constants/MOCK_DATA2'
 import ScrollButton from '../components/ScrollButton'
 import useScript from '../hooks/useScript'
-
+import img from '../assets/asdadaaa.png'
 
 
 
@@ -34,55 +34,53 @@ useScript(infoToShow.vac)
       
         <ScrollButton />
         <Header />
-        
+    
 
-        
-        <div className="ip">
+        <div className="hhg">
 
-
-        <div className="ssil"><a href="/main" className='atlk'>Главная</a><div className='strel'>&gt;</div><a href="/navigator" className='atlk'>Атлас профессий</a> <div className='strel'>&gt;</div> <a>Специальности</a> <div className='strel'>&gt;</div> <a>{infoToShow.pr}</a></div>
-
-        <div className="infcontn">
+        <div className="ssil"><a href="/main" className='atlk'>Главная</a><div className='strel'>/</div><a href="/navigator" className='atlk'>Навигатор профессий</a><div className='strel'>/</div> <a>{infoToShow.pr}</a></div>
 
 
-        <div className="opinf">
+        <div className="nameops">
+        <img src={img} alt=""/>
 
-        <img src={infoToShow.iimg} alt="" /> 
-
-        <div className="text">
-
+        <div className="nmif">
+              <h1>{infoToShow.pr}</h1>
+              <p>{infoToShow.inf}</p>
           
-        <h1>{infoToShow.pr}</h1>
+              <div className="blockscont">
+          <div>
+            <h1>Форма оубчения</h1>
+            <p>{infoToShow.form}</p>
+            </div>
+          <div>
+            <h1>Срок обучения</h1>
+            {infoToShow.time}
+            </div>
 
-        
-        
-        <p>{infoToShow.inf}</p>
-
-        <h1>Ты получишь навыки:</h1>
-
-        <p>{infoToShow.skills}</p>
-
-        <h1>Филлиалы с этими специальностями:</h1>
-        {infoToShow.fil}
-
-
-        <div className="hh-script"></div>
-
-      
-
-
-        
-        {/* <button>Поступить</button> */}
-        
+            <div className='fills'>
+            <h1>Филлиалы</h1>
+            <p>{infoToShow.fil}</p>
+            </div>
         </div>
 
         </div>
 
+            </div>
+
+
+        <div className='study'>
+          <h1>Навыки, которые ты получишь</h1>
+          <p>{infoToShow.skills}</p>
         </div>
+
+        <div className="mores">
+          <div className="hh-script"></div>
+          </div>
+
 
         </div>
 
-        
     
         <Footer />
     </div>

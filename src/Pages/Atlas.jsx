@@ -10,7 +10,7 @@ import ScrollButton from '../components/ScrollButton'
 export default function Atlas() {
   return (
     <>
-    <title>Атлас профессий</title>
+    <title>Навигатор профессий</title>
     <ScrollButton />
     <Header />
     <Filter />

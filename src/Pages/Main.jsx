@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useCallback } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../styles/main.css'
@@ -6,11 +6,16 @@ import ScrollButton from '../components/ScrollButton'
 import { Link } from 'react-router-dom'
 import { Tooltip } from 'react-tooltip'
 import ContextMenuButton from '../components/ContextMenuButton'
-import profilePhoto from '../assets/profile.png'
 import { useState } from 'react'
 import diplom from "../assets/diplom_img2.jpg"
 import { VKShareButton } from 'react-share'
-import 'animate.css';
+import Gallery from "react-photo-gallery";
+
+import Photo1 from '../assets/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.jpg'
+
+
+
+
 
 
 
@@ -30,53 +35,6 @@ const forms = [
 ]
 
 
-const otzv = [
-  {name: "Потапов Лелик",
-  profilePhoto: profilePhoto,
-  review: "Omg we needed a great sushi place around here. Food is amazing and the staff wow!!!!! Great service. By the way try the Volcanic Chashu Fries rice!!! Erika and Kayla were super. Is the place to go to."
-  },
-  {name: "Потапов Лелик",
-  profilePhoto: profilePhoto,
-  review: "Omg we needed a great sushi place around here. Food is amazing and the staff wow!!!!! Great service. By the way try the Volcanic Chashu Fries rice!!! Erika and Kayla were super. Is the place to go to."
-  },
-  {name: "Потапов Лелик",
-  profilePhoto: profilePhoto,
-  review: "Omg we needed a great sushi place around here. Food is amazing and the staff wow!!!!! Great service. By the way try the Volcanic Chashu Fries rice!!! Erika and Kayla were super. Is the place to go to."
-  },
-  {name: "Потапов Лелик",
-  profilePhoto: profilePhoto,
-  review: "Omg we needed a great sushi place around here. Food is amazing and the staff wow!!!!! Great service. By the way try the Volcanic Chashu Fries rice!!! Erika and Kayla were super. Is the place to go to."
-  },
-  {name: "Потапов Лелик",
-  profilePhoto: profilePhoto,
-  review: "Omg we needed a great sushi place around here. Food is amazing and the staff wow!!!!! Great service. By the way try the Volcanic Chashu Fries rice!!! Erika and Kayla were super. Is the place to go to."
-  },
-  {name: "Потапов Лелик",
-  profilePhoto: profilePhoto,
-  review: "Omg we needed a great sushi place around here. Food is amazing and the staff wow!!!!! Great service. By the way try the Volcanic Chashu Fries rice!!! Erika and Kayla were super. Is the place to go to."
-  },
-  {name: "Потапов Лелик",
-  profilePhoto: profilePhoto,
-  review: "Omg we needed a great sushi place around here. Food is amazing and the staff wow!!!!! Great service. By the way try the Volcanic Chashu Fries rice!!! Erika and Kayla were super. Is the place to go to."
-  },{name: "Потапов Лелик",
-  profilePhoto: profilePhoto,
-  review: "Omg we needed a great sushi place around here. Food is amazing and the staff wow!!!!! Great service. By the way try the Volcanic Chashu Fries rice!!! Erika and Kayla were super. Is the place to go to."
-  },
-  {name: "Потапов Лелик",
-  profilePhoto: profilePhoto,
-  review: "Omg we needed a great sushi place around here. Food is amazing and the staff wow!!!!! Great service. By the way try the Volcanic Chashu Fries rice!!! Erika and Kayla were super. Is the place to go to."
-  },
-  {name: "Потапов Лелик",
-  profilePhoto: profilePhoto,
-  review: "Omg we needed a great sushi place around here. Food is amazing and the staff wow!!!!! Great service. By the way try the Volcanic Chashu Fries rice!!! Erika and Kayla were super. Is the place to go to."
-  },
-  {name: "Потапов Лелик",
-  profilePhoto: profilePhoto,
-  review: "Omg we needed a great sushi place around here. Food is amazing and the staff wow!!!!! Great service. By the way try the Volcanic Chashu Fries rice!!! Erika and Kayla were super. Is the place to go to."
-  },
-  
-
-]
 
 
 
@@ -96,6 +54,26 @@ export default function Main() {
     }
 
     const shareUrl = 'atlas.krtsc.ru'
+
+    const photos = [
+      {
+        src: Photo1,
+        width: 4,
+        height: 1
+      },
+      {
+        src: Photo1,
+        width: 2,
+        height: 1
+      },
+      {
+        src: Photo1,
+        width: 3,
+        height: 1
+      },
+    ]
+
+    
   
 
 
@@ -117,9 +95,6 @@ export default function Main() {
       <Link to='/navigator'>Навигатор профессий</Link>
       <VKShareButton url={shareUrl} title="Лучший сервис по подбору профессии" style={{marginLeft: 20, color: '#262626'}} data-tooltip-id="my-dtooltip" data-tooltip-content='Поделиться'><span className='material-symbols-outlined'>share</span></VKShareButton>
       </div>
-      {/* <div className="downarr" onClick={handleScroll} data-tooltip-id="my-dtooltip" data-tooltip-content="Нажми, чтобы спуститься вниз">
-        <IoChevronDown/>
-      </div> */}
       </div>
       <div className="bacs">
         <div className="forms">
@@ -146,37 +121,27 @@ export default function Main() {
         <p>ГОСУДАРСТВЕННЫЙ ДИПЛОМ О СРЕДНЕМ ПРОФЕССИОНАЛЬНОМ ОБРАЗОВАНИИ</p>
         <button onClick={() => setOpen(!isOpen)}>Подробнее</button>
         </div>
-      </div>
-      <div className="reviews">
-        <h1>Что о нас РЕАЛЬНО говорят</h1>
-        <div className="wrapper">
-        <div className="track">
-        {otzv.map((items) => (
-          <div className="review">
-            <div className="profilerev">
-              <img src={profilePhoto} alt="" />
-              
-            <h1>{items.name}</h1>
-            <p>7 дней назад</p>
-            
-            </div>
-            <p className='textrev'>{items.review}</p>
 
+      </div>
+
+      <div className="gallery">
+
+          <h1>Наша жизнь</h1>
+        
+        
+   
+        <Gallery photos={photos}/>
       
-            </div>
-        ))}
-        </div>
-        </div>
-
-        {/* <iframe src="https://swdgts.ru/107bd3dce7c6a0276b43bdbbcc2be6c1" width="100%" height="500" frameborder="0" style={{marginTop: 50}}></iframe> */}
-
 
       </div>
+      
+      </div>
+
     </div>
     <div className='map' style={{marginBottom: -5}}>   
     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A816055aac504fea416c64dd04fdcf7341cf0130315a03c3f80ae23706ea2d375&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
     </div>
-    </div>
+    
     <Footer />
     </>
   )
