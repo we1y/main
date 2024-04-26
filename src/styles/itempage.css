@@ -105,6 +105,78 @@
     border-radius: 8px;
   }
 
+  .species {
+    background-color: rgb(246,248,252);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 16px;
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid rgb(233, 233, 233);
+    max-width: 350px;
+}
+
+.species h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.species a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    border: 1px solid rgb(233, 233, 233);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    transition: .3s ease-in-out;
+}
+
+.species a:hover {
+    background-color: #0062ff;
+    color: white;
+    border-color: #0062ff;
+    
+}
+
+.fits {
+    margin: 20px 0;
+    background-color: rgb(246,248,252);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 16px;
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid rgb(233, 233, 233);
+}
+
+.fits h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fits li {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.blocked {
+    margin-bottom: 50px;
+}
+
 
 .blockscont div {
     margin-bottom: 10px;

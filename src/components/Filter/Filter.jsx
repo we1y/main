@@ -7,7 +7,6 @@ import Slider from '../Slider';
 import SecCartsList from './constants/SecCartsList.jsx';
 import { CgWorkAlt } from 'react-icons/cg';
 import { MdWorkspacesOutline } from 'react-icons/md';
-import $ from 'jquery'; 
 
 
 

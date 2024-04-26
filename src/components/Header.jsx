@@ -18,9 +18,9 @@ const Header = () => {
  return (
   <header>
 
-	<Link to='/main'><img src={logo} className="navlogo"/></Link>
+	<Link to='/'><img src={logo} className="navlogo"/></Link>
 			<nav ref={navRef}>
-				<NavLink to="/main">Главная</NavLink>
+				<NavLink to="/">Главная</NavLink>
 				<NavLink to="/navigator">Навигатор профессий</NavLink>
 				<NavLink to="/proforient">Профориентация</NavLink>
 				<button

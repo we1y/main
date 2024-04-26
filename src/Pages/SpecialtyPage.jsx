@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -16,8 +16,20 @@ const SpecialtyPage = () => {
 
 
 
+
 const  { id } = useParams();
 const infoToShow = secData.find((item) => item.id === Number(id));
+
+useEffect(() => {
+  const hasRefreshed = localStorage.getItem('hasRefreshed');
+
+  if (!hasRefreshed) {
+      localStorage.setItem('hasRefreshed', 'true');
+      window.location.reload();
+  } else {
+    localStorage.removeItem('hasRefreshed');
+  }
+}, []);
 
 
 

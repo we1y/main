@@ -34,10 +34,16 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <li><Link to='/specialty/1' onClick={refreshPage}>Защита в чрезвычайных ситуациях</Link></li>
-        <li><Link to='/specialty/2' onClick={refreshPage}>Пожарная безопасность</Link></li>
-        <li><Link to='/specialty/3' onClick={refreshPage}>Правоохранительная деятельность</Link></li>
-    </div> 
+        <Link to='/specialty/1' onClick={refreshPage}>Защита в чрезвычайных ситуациях</Link>
+        <Link to='/specialty/2' onClick={refreshPage}>Пожарная безопасность</Link>
+        <Link to='/specialty/3' onClick={refreshPage}>Правоохранительная деятельность</Link>
+    </div>,
+    fits: 
+    <div>
+        <li>фывфыв</li>
+        <li>ФЫФВФПАФ</li>
+        <li>фывф</li>
+    </div>,
 },
 
 
@@ -51,10 +57,16 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <li><Link to='/specialty/4' onClick={refreshPage}>Сетевое и системное администрирование</Link></li>
-        <li><Link to='/specialty/5' onClick={refreshPage}>Информационные системы и программирование</Link></li>
-        <li><Link to='/specialty/6' onClick={refreshPage}>Обеспечение информационной безопасности автоматизированных систем</Link></li>
-    </div> 
+        <Link to='/specialty/4' onClick={refreshPage}>Сетевое и системное администрирование</Link>
+        <Link to='/specialty/5' onClick={refreshPage}>Информационные системы и программирование</Link>
+        <Link to='/specialty/6' onClick={refreshPage}>Обеспечение информационной безопасности автоматизированных систем</Link>
+    </div>,
+    fits: 
+    <div>
+        <li>фывфыв</li>
+        <li>ФЫФВФПАФ</li>
+        <li>фывф</li>
+    </div>, 
 },
 
 {
@@ -67,11 +79,17 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <li><Link to='/specialty/7' onClick={refreshPage}>Производство и эксплуатацаия оптических и оптико-электронных приборов и систем</Link></li>
-        <li><Link to='/specialty/8' onClick={refreshPage}>Оператор-наладчик металлообрабатывающих станков</Link></li>
-        <li><Link to='/specialty/9' onClick={refreshPage}>Эксплуатация беспилотных авиационных систем</Link></li>
-        <li><Link to='/specialty/10' onClick={refreshPage}>Мастер сельскохозяйственного производства</Link></li>
-    </div> 
+        <Link to='/specialty/7' onClick={refreshPage}>Производство и эксплуатацаия оптических и оптико-электронных приборов и систем</Link>
+        <Link to='/specialty/8' onClick={refreshPage}>Оператор-наладчик металлообрабатывающих станков</Link>
+        <Link to='/specialty/9' onClick={refreshPage}>Эксплуатация беспилотных авиационных систем</Link>
+        <Link to='/specialty/10' onClick={refreshPage}>Мастер сельскохозяйственного производства</Link>
+    </div>,
+    fits: 
+    <div>
+        <li>фывфыв</li>
+        <li>ФЫФВФПАФ</li>
+        <li>фывф</li>
+    </div>, 
 },
 
 {
@@ -84,9 +102,15 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <li><Link to='/specialty/11' onClick={refreshPage}>Операционная деятельность в логистике</Link></li>
-        <li><Link to='/specialty/12' onClick={refreshPage}>Мастер по ремонту и обслуживанию автомобилей</Link></li>
-    </div> 
+        <Link to='/specialty/11' onClick={refreshPage}>Операционная деятельность в логистике</Link>
+        <Link to='/specialty/12' onClick={refreshPage}>Мастер по ремонту и обслуживанию автомобилей</Link>
+    </div>,
+    fits: 
+    <div>
+        <li>фывфыв</li>
+        <li>ФЫФВФПАФ</li>
+        <li>фывф</li>
+    </div>, 
 },
 
 {
@@ -99,9 +123,15 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <li><Link to='/specialty/13' onClick={refreshPage}>Поварское и кондитерское дело</Link></li>
-        <li><Link to='/specialty/14' onClick={refreshPage}>Туризм и гостеприимство</Link></li>
-    </div> 
+        <Link to='/specialty/13' onClick={refreshPage}>Поварское и кондитерское дело</Link>
+        <Link to='/specialty/14' onClick={refreshPage}>Туризм и гостеприимство</Link>
+    </div>,
+    fits: 
+    <div>
+        <li>фывфыв</li>
+        <li>ФЫФВФПАФ</li>
+        <li>фывф</li>
+    </div>, 
 },
 
 {
@@ -114,9 +144,15 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <li><Link to='/specialty/15' onClick={refreshPage}>Финансы</Link></li>
-        <li><Link to='/specialty/16' onClick={refreshPage}>Экономика и бухгалтерский учет</Link></li>
-    </div> 
+        <Link to='/specialty/15' onClick={refreshPage}>Финансы</Link>
+        <Link to='/specialty/16' onClick={refreshPage}>Экономика и бухгалтерский учет</Link>
+    </div>,
+    fits: 
+    <div>
+        <li>фывфыв</li>
+        <li>ФЫФВФПАФ</li>
+        <li>фывф</li>
+    </div>, 
 },
 
 {
@@ -129,8 +165,14 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <li><Link to='/specialty/17' onClick={refreshPage}>Сестринское дело</Link></li>
-    </div> 
+        <Link to='/specialty/17' onClick={refreshPage}>Сестринское дело</Link>
+    </div>,
+    fits: 
+    <div>
+        <li>фывфыв</li>
+        <li>ФЫФВФПАФ</li>
+        <li>фывф</li>
+    </div>, 
 },
 
 {
@@ -143,10 +185,16 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <li><Link to='/specialty/18' onClick={refreshPage}>Дошкольное образование</Link></li>
-        <li><Link to='/specialty/19' onClick={refreshPage}>Юриспруденция</Link></li>
-        <li><Link to='/specialty/20' onClick={refreshPage}>Социально – культурная деятельность</Link></li>
-    </div> 
+        <Link to='/specialty/18' onClick={refreshPage}>Дошкольное образование</Link>
+        <Link to='/specialty/19' onClick={refreshPage}>Юриспруденция</Link>
+        <Link to='/specialty/20' onClick={refreshPage}>Социально – культурная деятельность</Link>
+    </div>,
+    fits: 
+    <div>
+        <li>фывфыв</li>
+        <li>ФЫФВФПАФ</li>
+        <li>фывф</li>
+    </div>, 
 },
 
 {
@@ -159,12 +207,18 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <li><Link to='/specialty/21' onClick={refreshPage}>Эксплуатация и обслуживание многоквартирного дома</Link></li>
-        <li><Link to='/specialty/22' onClick={refreshPage}>Мастер отделочных строительных и декоративных работ</Link></li>
-        <li><Link to='/specialty/23' onClick={refreshPage}>Мастер по ремонту и обслуживанию инженерных систем жилищно-коммунального хозяйства</Link></li>
-        <li><Link to='/specialty/24' onClick={refreshPage}>Электромонтажник слаботочных систем</Link></li>
-        <li><Link to='/specialty/25' onClick={refreshPage}>Землеустройство</Link></li>
-    </div> 
+        <Link to='/specialty/21' onClick={refreshPage}>Эксплуатация и обслуживание многоквартирного дома</Link>
+        <Link to='/specialty/22' onClick={refreshPage}>Мастер отделочных строительных и декоративных работ</Link>
+        <Link to='/specialty/23' onClick={refreshPage}>Мастер по ремонту и обслуживанию инженерных систем жилищно-коммунального хозяйства</Link>
+        <Link to='/specialty/24' onClick={refreshPage}>Электромонтажник слаботочных систем</Link>
+        <Link to='/specialty/25' onClick={refreshPage}>Землеустройство</Link>
+    </div>,
+    fits: 
+    <div>
+        <li>фывфыв</li>
+        <li>ФЫФВФПАФ</li>
+        <li>фывф</li>
+    </div>, 
 },
 
 ]

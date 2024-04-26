@@ -14,29 +14,18 @@ import img from '../assets/asdadaaa.png'
 const ItemPage = () => {
 
 
-
-
-
 const  { id } = useParams();
 const infoToShow = data.find((item) => item.id === Number(id));
 
 
-
-
-
   return (
 
-    
-
-    
     <div>
 
       <title>{infoToShow.ot}</title>
       
         <ScrollButton />
         <Header />
-        
-
         
         <div className="hhg">
 
@@ -51,29 +40,24 @@ const infoToShow = data.find((item) => item.id === Number(id));
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minima, esse eaque sint sequi optio, aspernatur voluptatum exercitationem molestias maxime provident dolore aperiam perspiciatis, nisi recusandae molestiae! Consequatur, amet cupiditate!</p>
           
               <div className="blockscont">
-          {/* <div>
-            <h1>Форма оубчения</h1>
-            <p>{infoToShow.form}</p>
-            </div>
-          <div>
-            <h1>Срок обучения</h1>
-            {infoToShow.time}
-            </div>
-
-            <div className='fills'>
-            <h1>Филлиалы</h1>
-            <p>{infoToShow.fil}</p>
-            </div> */}
         </div>
 
         </div>
 
             </div>
 
+            <div className="blocked">
 
-        <div className='study'>
+            <div className="fits">
+          <h1>Идеально подходит для тех, кто</h1>
+          <p>{infoToShow.fits}</p>
+        </div>
+
+        <div className='species'>
           <h1>Специальности</h1>
           <p>{infoToShow.species}</p>
+        </div>
+
         </div>
 
 
