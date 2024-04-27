@@ -29,7 +29,7 @@ const infoToShow = data.find((item) => item.id === Number(id));
         
         <div className="hhg">
 
-        <div className="ssil"><a href="/main" className='atlk'>Главная</a><div className='strel'>/</div><a href="/navigator" className='atlk'>Навигатор профессий</a><div className='strel'>/</div> <a>{infoToShow.ot}</a></div>
+        <div className="ssil"><a href="/" className='atlk'>Главная</a><div className='strel'>/</div><a href="/navigator" className='atlk'>Навигатор профессий</a><div className='strel'>/</div> <a>{infoToShow.ot}</a></div>
 
 
         <div className="nameops">
@@ -53,10 +53,15 @@ const infoToShow = data.find((item) => item.id === Number(id));
           <p>{infoToShow.fits}</p>
         </div>
 
+        <div className="default">
+
         <div className='species'>
           <h1>Специальности</h1>
           <p>{infoToShow.species}</p>
         </div>
+       
+
+          </div>
 
         </div>
 

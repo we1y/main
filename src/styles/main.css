@@ -14,7 +14,7 @@
 
 .diplom{
     background-color: rgb(255, 255, 255);
-    padding: 20px;
+    
     margin-bottom: 50px;
 }
 
@@ -155,7 +155,7 @@
     margin: 40px;
     font-size: 18px;
     font-weight: 600;
-    color: rgb(104, 104, 104);
+    color: rgb(49, 49, 49);
 }
 
 .otkr h1 {
@@ -215,8 +215,18 @@
     max-width: 1500px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.collegetext {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.collegeimg {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .collegeinfo h1 {
@@ -226,6 +236,7 @@
 .collegeinfo p {
     font-size: 20px;
     font-weight: 500;
+    color: rgb(49, 49, 49);
 }
 
 
@@ -282,6 +293,23 @@
         height: 600px;
     }
 
+    /* .collegeinfo {
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+
+
+    .collegeimg {
+        display: none;
+    }
+
+    .collegetext h1 {
+        font-size: 35px;
+    }
+
+    .collegetext p {
+        font-size: 18px;
+    }
 
     
 
@@ -330,6 +358,7 @@
     .fopis {
         display: none;
     }
+
 
 }
 

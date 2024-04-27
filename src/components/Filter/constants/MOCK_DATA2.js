@@ -154,7 +154,6 @@ export const secData = [
     form: 
     <ul>
         <li>Очная</li>
-        <li>Очно-заочная</li>
         <li>Заочная</li>
     </ul>,  
     fil: 
@@ -238,7 +237,6 @@ export const secData = [
     form: 
     <ul>
         <li>Очная</li>
-        <li>Очно-заочная</li>
         <li>Заочная</li>
     </ul>,  
     fil: 
@@ -500,7 +498,6 @@ export const secData = [
     form: 
     <ul>
         <li>Очная</li>
-        <li>Очно-заочная</li>
         <li>Заочная</li>
     </ul>,  
     fil: 
@@ -563,7 +560,6 @@ export const secData = [
     form: 
     <ul>
         <li>Очная</li>
-        
         <li>Заочная</li>
     </ul>,  
     fil: 
@@ -591,7 +587,6 @@ export const secData = [
     form: 
     <ul>
         <li>Очная</li>
-        <li>Очно-заочная</li>
         <li>Заочная</li>
     </ul>,  
     fil: 
@@ -676,7 +671,6 @@ export const secData = [
     form: 
     <ul>
         <li>Очная</li>
-        <li>Очно-заочная</li>
         <li>Заочная</li>
     </ul>,  
     fil: 

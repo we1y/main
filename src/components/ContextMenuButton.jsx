@@ -57,10 +57,10 @@ const ScrollToFifth = () => {
                     <span className="material-symbols-outlined">menu</span>
                     </button>
                     <nav className={`menu__list ${isOpen ? "menu__active" : ""}`}>
-                        <li className="menu__item" onClick={ScrollToFirst}>Атлас профессий</li>
+                        <li className="menu__item" onClick={ScrollToFirst}>Навигатор профессий</li>
                         <li className="menu__item" onClick={ScrollToSecond} >Форма обучения</li>
                         <li className="menu__item" onClick={ScrollToThird}>Диплом</li>
-                        <li className="menu__item" onClick={ScrollToFourth}>Отзывы</li>
+                        <li className="menu__item" onClick={ScrollToFourth}>Наша жизнь</li>
                         <li className="menu__item" onClick={ScrollToFifth}>Наши филиалы</li>
                     </nav>
     </div>

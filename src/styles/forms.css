@@ -17,7 +17,7 @@ background-color: rgb(246,248,252);
 
 .fortext h1{
     font-size: 40px;
-    margin: 0;
+    margin-top: 0;
 }
 
 .fortext p{
@@ -67,8 +67,8 @@ background-color: rgb(246,248,252);
     }
 
     .fortext {
-        margin-bottom: 70px;
-        margin-top: -30px;
+        margin-bottom: 60px;
+        margin-top: -10px;
     }
 
     .formestext {

@@ -50,7 +50,7 @@ useScript(infoToShow.vac)
 
         <div className="hhg">
 
-        <div className="ssil"><a href="/main" className='atlk'>Главная</a><div className='strel'>/</div><a href="/navigator" className='atlk'>Навигатор профессий</a><div className='strel'>/</div> <a>{infoToShow.pr}</a></div>
+        <div className="ssil"><a href="/" className='atlk'>Главная</a><div className='strel'>/</div><a href="/navigator" className='atlk'>Навигатор профессий</a><div className='strel'>/</div> <a>{infoToShow.pr}</a></div>
 
 
         <div className="nameops">
@@ -86,12 +86,22 @@ useScript(infoToShow.vac)
           <p>{infoToShow.skills}</p>
         </div>
 
+      
+        <div className="enroll">
+            <h1>Как поступить?</h1>
+            <ul>
+              <li>Очно, во время приемной комиссии</li>
+              <li>Позвонить: +7(498)568-48-20, +7(936)173-78-89</li>
+            </ul>
+          </div>
+
         <div className="mores">
           <div className="hh-script"></div>
           </div>
 
 
         </div>
+
 
     
         <Footer />

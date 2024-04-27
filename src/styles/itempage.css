@@ -106,22 +106,19 @@
   }
 
   .species {
-    background-color: rgb(246,248,252);
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 16px;
     padding: 10px;
     list-style-type: none;
-    border: 1px solid rgb(233, 233, 233);
     max-width: 350px;
+    margin-top: 50px;
 }
 
 .species h1 {
     margin: 0;
     font-size: 22px;
     font-weight: 500;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .species a{
@@ -145,7 +142,6 @@
 }
 
 .fits {
-    margin: 20px 0;
     background-color: rgb(246,248,252);
     margin-left: 10px;
     margin-right: 10px;
@@ -186,7 +182,6 @@
     border-radius: 16px;
     color: black;
     padding: 15px 20px;
-    
 }
 
 .blockscont div ul{
@@ -225,6 +220,40 @@
 
 .mores {
     margin: 50px 10px;
+}
+
+.enroll {
+    background-color: rgb(246,248,252);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 16px;
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid rgb(233, 233, 233);
+}
+
+.enroll h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.enroll ul {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.enroll li {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
 }
 
 @media (max-width: 1050px) {

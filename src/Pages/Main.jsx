@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useCallback } from 'react'
+import React  from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../styles/main.css'
@@ -9,11 +9,10 @@ import ContextMenuButton from '../components/ContextMenuButton'
 import { useState } from 'react'
 import diplom from "../assets/diplom_img2.jpg"
 import { VKShareButton } from 'react-share'
-import Gallery from "react-photo-gallery";
 
 import Photo1 from '../assets/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.jpg'
 import Forms from '../components/Forms'
-
+import quest from '../assets/profile.png'
 
 
 
@@ -117,14 +116,18 @@ export default function Main() {
       </div> */}
       
       <div className="collegeinfo">
+        <div className="collegetext">
         <h1>
-          
           Профессиональное образование в Московской области! 
           </h1>
           <p>Различные направления подготовки: от технологий до экономики и управления,
  современные лаборатории и оборудование для практических занятий, опытные преподаватели
   с индустриальным опытом, широкие возможности для стажировок и трудоустройства,
-   а также комфортные условия для обучения и отдыха.</p>
+   а также комфортные условия для обучения и отдыха</p>
+   </div>
+   <div className="collegeimg">
+    <img src={quest} width={200} />
+   </div>
       </div>
       <Forms />
       <div className="diplom">
