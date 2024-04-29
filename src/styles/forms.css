@@ -85,7 +85,7 @@ background-color: rgb(246,248,252);
         padding: 10px 10px;
     }
 
-    .formestext {
+    .formestext p{
         font-size: 16px;
     }
 }
