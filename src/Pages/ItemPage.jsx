@@ -55,10 +55,21 @@ const infoToShow = data.find((item) => item.id === Number(id));
 
         <div className="default">
 
+
+        <div className="enroll">
+            <h1>Как поступить?</h1>
+            <ul>
+              <li>Очно, во время приемной комиссии</li>
+              <li>Позвонить: +7(498)568-48-20, +7(936)173-78-89</li>
+            </ul>
+          </div>
+
         <div className='species'>
           <h1>Специальности</h1>
           <p>{infoToShow.species}</p>
         </div>
+
+        
        
 
           </div>

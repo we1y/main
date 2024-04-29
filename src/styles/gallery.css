@@ -1,0 +1,57 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(233, 233, 233);
+    background-color: rgb(246,248,252);
+    padding: 20px;
+    justify-content: center;
+  }
+
+
+  .gallery h1 {
+    margin-bottom: 35px;
+  }
+  
+  .gallery img {
+    width: calc(33.333% - 10px);
+    margin: 5px;
+    border-radius: 8px;
+  }
+
+  .Modal img {
+    width: 50%;
+  }
+
+
+
+  .Modal {
+    outline: none;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.897);
+    z-index: 1000;
+  }
+
+  .Modal span {
+    position: absolute;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+}
+
+  @media (max-width: 1050px)  {
+
+    .Modal, .Overlay {display: none;}
+    
+  }

@@ -13,6 +13,7 @@ import { VKShareButton } from 'react-share'
 import Photo1 from '../assets/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.jpg'
 import Forms from '../components/Forms'
 import quest from '../assets/profile.png'
+import Gallery from '../components/Gallery'
 
 
 
@@ -35,6 +36,19 @@ const forms = [
   }
 ]
 
+const images = [
+  'https://source.unsplash.com/random/800x600',
+  'https://source.unsplash.com/random/800x601',
+  'https://source.unsplash.com/random/800x602',
+  'https://source.unsplash.com/random/800x603',
+  'https://source.unsplash.com/random/800x604',
+  'https://source.unsplash.com/random/800x605',
+  'https://source.unsplash.com/random/800x606',
+  'https://source.unsplash.com/random/800x607',
+  'https://source.unsplash.com/random/800x608',
+  'https://source.unsplash.com/random/800x609',
+];
+
 
 
 
@@ -56,25 +70,6 @@ export default function Main() {
 
     const shareUrl = 'atlas.krtsc.ru'
 
-    const photos = [
-      {
-        src: Photo1,
-        width: 4,
-        height: 1
-      },
-      {
-        src: Photo1,
-        width: 2,
-        height: 1
-      },
-      {
-        src: Photo1,
-        width: 3,
-        height: 1
-      },
-    ]
-
-    
   
 
 
@@ -141,7 +136,7 @@ export default function Main() {
 
       </div>
 
-  
+      <Gallery images={images}/>
       
       </div>
 

@@ -25,7 +25,7 @@ export default function Forms() {
         <div className='formes'>
       <div className='formesbtn'>
         {buttons.map((button) => (
-          <span key={button.id} onClick={() => setSelectedButton(button.id)} style={{backgroundColor: selectedButton === button.id ? "rgb(0,98,255)" : "white", color: selectedButton === button.id ? "white" : "black"}}>
+          <span key={button.id} onClick={() => setSelectedButton(button.id)} style={{backgroundColor: selectedButton === button.id ? "rgb(0,98,255)" : "white", color: selectedButton === button.id ? "white" : "black", borderRadius: '8px'}}>
             {button.label}
           </span>
         ))}
