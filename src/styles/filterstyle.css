@@ -27,7 +27,7 @@ body {
 
 
 .cart {
-  background-color: rgb(246,248,252);
+  /* background-color: rgb(246,248,252); */
   margin: 10px;
   width: 200px;
   transition: .2s ease-in-out;
@@ -42,7 +42,7 @@ body {
 }
 
 .cart:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
 }
 
 
@@ -318,10 +318,11 @@ footer {
     border-radius: 0;
     box-shadow: none;
     background-color: white;
-    margin-top: 1px;
+    margin-top: 5px;
     padding: 10px;
     margin-right: 0;
     margin-left: 0;
+    border: none;
     border-bottom: 1px solid rgb(246,248,252);
     height: 8vh;
     

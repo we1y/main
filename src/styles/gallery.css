@@ -16,7 +16,13 @@
     width: calc(33.333% - 10px);
     margin: 5px;
     border-radius: 8px;
+    transition: .3s ease-in-out;
   }
+
+  .gallery img:hover{
+    transform: translateY(-5px);
+  }
+
 
   .Modal img {
     width: 50%;

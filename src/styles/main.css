@@ -217,8 +217,8 @@
 }
 
 .collegetext {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .collegeimg {
@@ -227,11 +227,11 @@
 }
 
 .collegeinfo h1 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .collegeinfo p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: rgb(49, 49, 49);
 }
@@ -305,11 +305,12 @@
     }
 
     .collegetext h1 {
-        font-size: 35px;
+        font-size: 30px;
+        margin-top: 40px;
     }
 
     .collegetext p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     

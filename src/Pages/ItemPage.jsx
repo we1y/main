@@ -29,7 +29,7 @@ const infoToShow = data.find((item) => item.id === Number(id));
         
         <div className="hhg">
 
-        <div className="ssil"><a href="/" className='atlk'>Главная</a><div className='strel'>/</div><a href="/navigator" className='atlk'>Навигатор профессий</a><div className='strel'>/</div> <a>{infoToShow.ot}</a></div>
+        <div className="ssil"><a href="/" className='atlk'>Главная</a><div className='strel'>/</div><a href="/navigator" className='atlk'>Навигатор профессий</a><div className='strel'>/</div><a>Отрасли</a><div className='strel'>/</div><a>{infoToShow.ot}</a></div>
 
 
         <div className="nameops">
@@ -57,10 +57,10 @@ const infoToShow = data.find((item) => item.id === Number(id));
 
 
         <div className="enroll">
-            <h1>Как поступить?</h1>
+            <h1>Поступление</h1>
             <ul>
               <li>Очно, во время приемной комиссии</li>
-              <li>Позвонить: +7(498)568-48-20, +7(936)173-78-89</li>
+              <li>Позвонить: +7 (498) 568-48-20, +7 (936) 173-78-89</li>
             </ul>
           </div>
 
