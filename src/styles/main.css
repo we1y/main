@@ -63,13 +63,10 @@
     left: 0;
     padding-top: 70px;
     visibility: hidden;
-    transition: .2s ease-in-out;
-    opacity: 0;
 }
 
 .dipimg__active {
     visibility: visible;
-    opacity: 1;
 }
 
 .dipimg__active span {
@@ -272,6 +269,10 @@
         margin-top: 110px;
     }
 
+    .dipimg img{
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 960px) {
@@ -317,9 +318,6 @@
         display: none;
     }
 
-    .diplom button {
-        display: none;
-    }
 
     .otkr h1{
 

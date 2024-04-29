@@ -52,6 +52,8 @@
 
   @media (max-width: 1050px)  {
 
-    .Modal, .Overlay {display: none;}
+    .Modal img {
+        width: 90%;
+      }
     
   }
