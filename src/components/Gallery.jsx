@@ -12,7 +12,6 @@ const Gallery = ({ images }) => {
 
   return (
     <div className="gallery">
-        <h1>Наша жизнь</h1>
         <div className="gallerycont">
       {images.map((image, index) => (
         <img

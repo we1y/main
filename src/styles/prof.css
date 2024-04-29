@@ -5,7 +5,7 @@
     width: 100%;
     align-items: center;
     text-align: center;
-    height: 900px;
+    min-height: 100vh;
 }
 
 .cnt button {
