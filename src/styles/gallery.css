@@ -50,7 +50,6 @@
     
   }
 
-
   
 
 
@@ -106,6 +105,17 @@
       margin: 0 20px;
       margin-top: 20px;
     }
+
+    .gallerycont {
+      overflow: auto;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+  }
+  
+  .gallerycont::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+  }
 
 
   }
