@@ -17,27 +17,8 @@ import Gallery from '../components/Gallery'
 
 
 
-
-
-
-
-const forms = [
-  {form: 'ОЧНАЯ',
-   opis: 'Очная или дневная форма  обучения - форма обучения, которая строится на аудиторных занятиях в группах при непосредственном общении с преподавателем. Включает в себя лекции, семинары, практические занятия, лабораторные работы, отработку навыков на учебно-лабораторном оборудовании, а также самостоятельное обучение',
-   btn: '/och'
-  },
-  {form: 'ЗАОЧНАЯ',
-   opis: 'На первом этапе обучающийся осваивает базовые знания, умения, компетенции путем изучения учебно-методической литературы и иных информационных ресурсов (установочная сессия), на втором - преподаватель проводит проверку освоенного обучающимся материала. Эти этапы, как правило, определяются в соответствии с графиком учебного процесса образовательной программы',
-   btn: '/zaoch'
-  },
-  {form: 'ОЧНО-ЗАОЧНАЯ',
-   opis: 'Форма обучения предполагает посещение обучающимися занятий от двух до четырех раз в неделю и систематические аудиторные занятия (лекции, семинары, практические занятия и пр.) в течение всего учебного года',
-   btn: '/och-zaoch'
-  }
-]
-
 const images = [
-  'https://source.unsplash.com/random/800x600',
+  'https://source.unsplash.com/random/1920x1080',
   'https://source.unsplash.com/random/800x601',
   'https://source.unsplash.com/random/800x602',
   'https://source.unsplash.com/random/800x603',
@@ -60,13 +41,15 @@ export default function Main() {
   const [isOpen, setOpen] = useState(false);
 
 
-  const handleScroll = () => {
-    window.scrollTo({
-        top: 870,
-        left: 0,
-        behavior: 'smooth',
-      });
-    }
+  // const handleScroll = () => {
+  //   window.scrollTo({
+  //       top: 870,
+  //       left: 0,
+  //       behavior: 'smooth',
+  //     });
+  //   }
+
+
 
     const shareUrl = 'atlas.krtsc.ru'
 
@@ -92,23 +75,6 @@ export default function Main() {
       <VKShareButton url={shareUrl} title="Лучший сервис по подбору профессии" style={{marginLeft: 20, color: '#262626'}} data-tooltip-id="my-dtooltip" data-tooltip-content='Поделиться'><span className='material-symbols-outlined'>share</span></VKShareButton>
       </div>
       </div>
-      {/* <div className="bacs">
-        <div className="forms">
-        
-        <h1>ФОРМА ОБУЧЕНИЯ</h1>
-        <div className='formcont'>
-
-        <Tooltip id="my-sectooltip" className='tooltip'/>
-          
-          {forms.map((forms) => (
-            
-            <Link style={{textDecoration:"none", margin: 10}} to={forms.btn} data-tooltip-id="my-sectooltip" data-tooltip-content="Подробнее">
-            <div className='fform'>{forms.form}<div className='fopis'>{forms.opis}</div></div>
-            </Link>
-          ))}
-        </div>
-        </div>
-      </div> */}
       
       <div className="collegeinfo">
         <div className="collegetext">

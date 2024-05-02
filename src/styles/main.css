@@ -79,72 +79,11 @@
 }
 
 
-.bacs {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    background-image: url('../assets/imageedit_1_5356012574.jpg');
-    background-size: 100%;
-}
-
-.forms {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 20px 0;
-    padding-bottom: 50px;
-    width: 100%;
-    max-width: 1320px;
-    margin: 0 auto;
-  }
-
-.formcont {
-    display: flex;
-    flex-wrap: wrap;  
-}
-
-.fform {
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 34px;
-    transition: .2s linear;
-    border: 3px solid rgb(246,248,252);
-    border-radius: 6px;
-    margin-left: 38px;
-    margin-right: -38px;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    text-transform: uppercase;
-    text-align: start; 
-    height: calc(92% - 38px);
-}
-
-.formcont > * {
-    width: calc(33% - 38px);
-}
-
-
-.fform:hover {
-    background-color: rgba(215, 232, 255, 0.158);
-    border-color: rgb(246,248,252);
-    color: white;
-    transform: translateY(-3px);
-}
-
-.fopis {
-    padding: 20px 0;
-    line-height: 24px;
-    font-size: 16px;
-    font-weight: 500;
-    text-align: start;
-    text-transform: none;
-}
-
 .otkr {
    text-align: center;
-   padding: 50px;
+   padding-top: 120px;
+   padding-bottom: 100px;
    background-color: rgb(246,248,252);
-   margin-top: -10px;
    border-bottom: 1px solid rgb(233, 233, 233);
 }
 
@@ -158,7 +97,7 @@
 .otkr h1 {
     color: rgb(0,98,255);
     font-size:60px;
-    margin-top: 200px;
+    margin: 0 20px;
 }
 
 .otkr a {
@@ -177,35 +116,16 @@
     transform: translateY(-2px);
 }
 
-.otkr input {
-    padding: 10px;
-    margin-left: 20px;
-    border: none;
-    background-color: rgba(255, 0, 0, 0);
-    font-weight: 600;
-    outline: none;
-}
 
-.otkr button {
-    padding: 10px;
-    border: none;
-    background-color: rgba(240, 248, 255, 0);
-    cursor: pointer;
-    
-}
+
+
 
 .clpbtns {
     display: flex;
     align-items: center;
     display: flex;
     margin: 0 auto;
-    width: 265px;
-    margin-bottom: 150px;
-}
-
-
-.otkr img:hover {
-    transform: translateY(-5px);
+    width: 265px; 
 }
 
 .collegeinfo {
@@ -235,6 +155,8 @@
     font-weight: 500;
     color: rgb(49, 49, 49);
 }
+
+
 
 
 @keyframes scroll {
@@ -277,27 +199,6 @@
 
 @media (max-width: 960px) {
 
-    .fopis {
-        font-size: 18px;
-    }
-
-    .formcont {
-        flex-direction: column;
-    }
-
-    .formcont > * {
-        width: calc(93% - 38px);
-        
-    }
-
-    .otkr {
-        height: 600px;
-    }
-
-    /* .collegeinfo {
-        display: flex;
-        flex-direction: column-reverse;
-    } */
 
 
     .collegeimg {
@@ -320,16 +221,10 @@
     }
 
 
-    .otkr h1{
-
-        margin-top: 120px;
+    .otkr h1 {
         font-size: 45px;
-        
     }
 
-    .reviews {
-        margin: 70px 10px;
-    }
 
     .dipimg img{
         width: 90%;
@@ -339,29 +234,6 @@
 }
 
 @media (max-width: 500px) {
-
-    .fform {
-
-        padding: 10px;
-
-        
-        
-    }
-
-    .otkr h1{
-
-        margin-top: 30px;
-        
-    }
-
-
-    .formcont > * {
-        width: calc(85% - 38px);
-    }
-
-    .fopis {
-        display: none;
-    }
 
 
 }

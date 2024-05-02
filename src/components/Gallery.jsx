@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import '../styles/gallery.css'
+import { Tooltip } from 'react-tooltip';
 
 const Gallery = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -12,7 +13,11 @@ const Gallery = ({ images }) => {
 
   return (
     <div className="gallery">
-        <div className="gallerycont">
+      <div className="namebt">
+      <h1>Фотогалерея</h1>
+      <p>Жизнь в стенах нашего учебного заведения</p>
+      </div>
+        <div className="gallerycont" id='scroll'>
       {images.map((image, index) => (
         <img
           key={index}

@@ -20,21 +20,21 @@ const ScrollToFirst = () => {
 
 const ScrollToSecond = () => {
     window.scrollTo({
-        top: 880,
+        top: 580,
         behavior: 'smooth'
       });
 }
 
 const ScrollToThird = () => {
     window.scrollTo({
-        top: 1200,
+        top: 1000,
         behavior: 'smooth'
       });
 }
 
 const ScrollToFourth = () => {
     window.scrollTo({
-        top: 1600,
+        top: 1300,
         behavior: 'smooth'
       });
 }
@@ -58,9 +58,9 @@ const ScrollToFifth = () => {
                     </button>
                     <nav className={`menu__list ${isOpen ? "menu__active" : ""}`}>
                         <li className="menu__item" onClick={ScrollToFirst}>Навигатор профессий</li>
-                        <li className="menu__item" onClick={ScrollToSecond} >Форма обучения</li>
+                        <li className="menu__item" onClick={ScrollToSecond} >Формы обучения</li>
                         <li className="menu__item" onClick={ScrollToThird}>Диплом</li>
-                        <li className="menu__item" onClick={ScrollToFourth}>Наша жизнь</li>
+                        <li className="menu__item" onClick={ScrollToFourth}>Фотогалерея</li>
                         <li className="menu__item" onClick={ScrollToFifth}>Наши филиалы</li>
                     </nav>
     </div>
