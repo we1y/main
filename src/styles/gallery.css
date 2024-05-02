@@ -107,14 +107,11 @@
     }
 
     .gallerycont {
-      overflow: auto;
-      -ms-overflow-style: none;
-      scrollbar-width: none;
+      padding: 0;
   }
   
   .gallerycont::-webkit-scrollbar {
-      width: 0;
-      height: 0;
+      display: none;
   }
 
 
