@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.547893e6.css",
+    "main.css": "/static/css/main.95de57c9.css",
     "main.js": "/static/js/main.ce643dda.js",
     "static/media/diplom_img2.jpg": "/static/media/diplom_img2.bf6dda7641e16c039c1a.jpg",
     "static/media/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.jpg": "/static/media/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.e0cbd007b96df13360fe.jpg",
@@ -10,11 +10,11 @@
     "static/media/profile.png": "/static/media/profile.8e03315de81131b9341b.png",
     "static/media/headlogo.png": "/static/media/headlogo.5e87d85f1450fa57a49e.png",
     "index.html": "/index.html",
-    "main.547893e6.css.map": "/static/css/main.547893e6.css.map",
+    "main.95de57c9.css.map": "/static/css/main.95de57c9.css.map",
     "main.ce643dda.js.map": "/static/js/main.ce643dda.js.map"
   },
   "entrypoints": [
-    "static/css/main.547893e6.css",
+    "static/css/main.95de57c9.css",
     "static/js/main.ce643dda.js"
   ]
 }
