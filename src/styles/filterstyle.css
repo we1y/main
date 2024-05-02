@@ -260,14 +260,14 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 70px;
+  height: 100px;
   display: none;
   text-align: center;
   
 }
 
 .mobf {
-  margin-top: 10px;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
 }
@@ -280,7 +280,7 @@ footer {
   align-items: center;
   margin-left: 25px;
   margin-right: 25px;
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(68, 68, 68);
 }
 
@@ -291,6 +291,24 @@ footer {
 
 .af___active {
   color: #0062ff;
+}
+
+@media (max-width: 500px) {
+  footer {
+    
+    height: 70px;
+  
+    
+  }
+  
+  .mobf {
+    margin-top: 10px;
+    
+  }
+
+  .af {
+    font-size: 25px;
+  }
 }
 
 
