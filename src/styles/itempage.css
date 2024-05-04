@@ -208,7 +208,7 @@
 
 
 .hhg img {
-    max-width: 600px;
+    width: calc(60% - 10px);
     border-radius: 16px;
     border: 1px solid rgb(233, 233, 233);
     
