@@ -1,20 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.2225e683.css",
-    "main.js": "/static/js/main.ce643dda.js",
+    "main.css": "/static/css/main.4b75b7c2.css",
+    "main.js": "/static/js/main.6208cd32.js",
     "static/media/diplom_img2.jpg": "/static/media/diplom_img2.bf6dda7641e16c039c1a.jpg",
-    "static/media/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.jpg": "/static/media/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.e0cbd007b96df13360fe.jpg",
+    "static/media/17.jpeg": "/static/media/17.f4ada5be7f900421b998.jpeg",
+    "static/media/13.jpeg": "/static/media/13.4a89dd424f12e7d5eb67.jpeg",
+    "static/media/3.jpeg": "/static/media/3.7f2dbc318250c9b3ba29.jpeg",
+    "static/media/18.jpeg": "/static/media/18.f2c5ed50be7fc90ed30c.jpeg",
+    "static/media/16.jpeg": "/static/media/16.3bb92d0bff6b90327ff3.jpeg",
+    "static/media/21.jpeg": "/static/media/21.51de60a6b7fc9c7f9793.jpeg",
+    "static/media/5.jpeg": "/static/media/5.a5a64916c7f341d76bef.jpeg",
+    "static/media/20.jpeg": "/static/media/20.54b6efb00f5084483511.jpeg",
+    "static/media/7.jpeg": "/static/media/7.76cbee2fdf9c1f9e4446.jpeg",
+    "static/media/1.jpeg": "/static/media/1.a15db1c221ebc6bbb41f.jpeg",
+    "static/media/9.jpeg": "/static/media/9.17c68c4c9a78ec36fee7.jpeg",
+    "static/media/12.jpeg": "/static/media/12.623055cbbff3abb072ec.jpeg",
+    "static/media/6.jpeg": "/static/media/6.d8a455ee3ef48ac317f8.jpeg",
+    "static/media/4.jpeg": "/static/media/4.bd2ead4ff6a92e8ca187.jpeg",
+    "static/media/15.jpeg": "/static/media/15.8d9dfb3212fcac6e3220.jpeg",
+    "static/media/11.jpeg": "/static/media/11.22936bfe8818ef3e2a38.jpeg",
+    "static/media/10.jpeg": "/static/media/10.abdc6fed4517d9c2cbb1.jpeg",
+    "static/media/2.jpeg": "/static/media/2.771ce1c1f7a0fe930db4.jpeg",
+    "static/media/8.jpeg": "/static/media/8.799caa19efa5ea1905f0.jpeg",
+    "static/media/19.jpeg": "/static/media/19.a8836964347110e95980.jpeg",
+    "static/media/14.jpeg": "/static/media/14.60ddbd1a544f255865d0.jpeg",
     "static/media/findir.svg": "/static/media/findir.5036cfdb7a81f7bad99f795d6e4817df.svg",
     "static/media/pixeldigivolvecyrillic.svg": "/static/media/pixeldigivolvecyrillic.d618b86f33d7eaecf61148629695de23.svg",
     "static/media/asdadaaa.png": "/static/media/asdadaaa.812190c9383b8095a672.png",
     "static/media/profile.png": "/static/media/profile.8e03315de81131b9341b.png",
     "static/media/headlogo.png": "/static/media/headlogo.5e87d85f1450fa57a49e.png",
     "index.html": "/index.html",
-    "main.2225e683.css.map": "/static/css/main.2225e683.css.map",
-    "main.ce643dda.js.map": "/static/js/main.ce643dda.js.map"
+    "main.4b75b7c2.css.map": "/static/css/main.4b75b7c2.css.map",
+    "main.6208cd32.js.map": "/static/js/main.6208cd32.js.map"
   },
   "entrypoints": [
-    "static/css/main.2225e683.css",
-    "static/js/main.ce643dda.js"
+    "static/css/main.4b75b7c2.css",
+    "static/js/main.6208cd32.js"
   ]
 }
