@@ -9,25 +9,57 @@ import ContextMenuButton from '../components/ContextMenuButton'
 import { useState } from 'react'
 import diplom from "../assets/diplom_img2.jpg"
 import { VKShareButton } from 'react-share'
-
-import Photo1 from '../assets/A5E60D96VOzgnmrS5TSR0MWZHgjbqdCpUMzDN7DakiCGyNp9JG0C9rAs5lhQJSFZ8GUDkNEODTUAOz0s682Iinq7LKNp6HEL.jpg'
 import Forms from '../components/Forms'
 import quest from '../assets/profile.png'
 import Gallery from '../components/Gallery'
 
+import q from '../assets/collegephoto/1.jpeg'
+import w from '../assets/collegephoto/2.jpeg'
+import e from '../assets/collegephoto/3.jpeg'
+import r from '../assets/collegephoto/4.jpeg'
+import t from '../assets/collegephoto/5.jpeg'
+import y from '../assets/collegephoto/6.jpeg'
+import u from '../assets/collegephoto/7.jpeg'
+import i from '../assets/collegephoto/8.jpeg'
+import o from '../assets/collegephoto/9.jpeg'
+import p from '../assets/collegephoto/10.jpeg'
+import a from '../assets/collegephoto/11.jpeg'
+import s from '../assets/collegephoto/12.jpeg'
+import d from '../assets/collegephoto/13.jpeg'
+import q2 from '../assets/collegephoto/14.jpeg'
+import w2 from '../assets/collegephoto/15.jpeg'
+import e2 from '../assets/collegephoto/16.jpeg'
+import r2 from '../assets/collegephoto/17.jpeg'
+import t2 from '../assets/collegephoto/18.jpeg'
+import y2 from '../assets/collegephoto/19.jpeg'
+import u2 from '../assets/collegephoto/20.jpeg'
+import i2 from '../assets/collegephoto/21.jpeg'
+
 
 
 const images = [
-  'https://source.unsplash.com/random/1920x1080',
-  'https://source.unsplash.com/random/800x601',
-  'https://source.unsplash.com/random/800x602',
-  'https://source.unsplash.com/random/800x603',
-  'https://source.unsplash.com/random/800x604',
-  'https://source.unsplash.com/random/800x605',
-  'https://source.unsplash.com/random/800x606',
-  'https://source.unsplash.com/random/800x607',
-  'https://source.unsplash.com/random/800x608',
-  'https://source.unsplash.com/random/800x609',
+  q,
+  w,
+  e,
+  r,
+  t,
+  y,
+  u,
+  i,
+  o,
+  p,
+  a,
+  s,
+  d,
+  q2,
+  w2,
+  e2,
+  r2,
+  t2,
+  y2,
+  u2,
+  i2,
+
 ];
 
 
@@ -39,17 +71,6 @@ export default function Main() {
 
 
   const [isOpen, setOpen] = useState(false);
-
-
-  // const handleScroll = () => {
-  //   window.scrollTo({
-  //       top: 870,
-  //       left: 0,
-  //       behavior: 'smooth',
-  //     });
-  //   }
-
-
 
     const shareUrl = 'atlas.krtsc.ru'
 

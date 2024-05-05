@@ -265,6 +265,7 @@ footer {
   
 }
 
+
 .mobf {
   margin-top: 25px;
   display: flex;
@@ -315,6 +316,15 @@ footer {
   
   footer {
       display: inline;
+      opacity: 1;
+  }
+
+  .footgr {
+    transition: .3s;
+  }
+
+  .footgr.out {
+    transform: translateY(100%);
   }
 
   .cartcont {

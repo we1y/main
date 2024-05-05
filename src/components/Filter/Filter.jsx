@@ -7,6 +7,7 @@ import Slider from '../Slider';
 import SecCartsList from './constants/SecCartsList.jsx';
 import { CgWorkAlt } from 'react-icons/cg';
 import { MdWorkspacesOutline } from 'react-icons/md';
+import $ from 'jquery';
 
 
 
@@ -71,6 +72,20 @@ export default function Filter() {
   
 }
 
+var footer = $('.footgr'),
+	scrollPrev = 0;
+
+$(window).scroll(function() {
+	var scrolled = $(window).scrollTop();
+ 
+	if ( scrolled > 100 && scrolled > scrollPrev ) {
+		footer.addClass('out');
+	} else {
+		footer.removeClass('out');
+	}
+	scrollPrev = scrolled;
+});
+
 
   return (
     <div className='mainatlas'>
@@ -92,7 +107,7 @@ export default function Filter() {
         </div>
         <h1 className='ss'>Отрасли</h1>
         <div className={`d ${isOpen ? "d___active" : ""}`}>
-        <CartsList cartsList={cartsList} />
+        <CartsList cartsList={cartsList}/>
         </div>
         <h1 className='ss'>Специальности</h1>
         <div className={`l ${secIsOpen ? "l___active" : ""}`}>
