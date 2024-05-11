@@ -54,7 +54,7 @@ useScript(infoToShow.vac)
 
 
         <div className="nameops">
-        <img src={img} alt=""/>
+        <img src={infoToShow.img} alt=""/>
 
         <div className="nmif">
               <h1>{infoToShow.pr}</h1>

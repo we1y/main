@@ -29,16 +29,17 @@ body {
 
 .cart {
   margin: 10px;
-  width: 200px;
   transition: .2s ease-in-out;
   cursor: pointer;
-  min-height: 280px;
+  padding: 10px;
+  min-height: 200px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   border-radius: 20px;
-  border: 1px solid rgb(233, 233, 233);
+  /* border: 1px solid rgb(233, 233, 233); */
 }
 
 .cart:hover {
@@ -48,10 +49,10 @@ body {
 
 
 .prtext {
-  padding: 10px;
   text-align: center;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
 }
 
 .ss{
@@ -121,12 +122,13 @@ body {
   transition: .3s ease-in-out;
   border-radius: 20px;
   margin-top: 40px;
+  
 }
 
 
 
 .cart img {
-  width: 200px;
+  width: 100px;
   transition: .3s ease-in-out;
 }
 
@@ -141,7 +143,11 @@ body {
 }
 
 .sliderr {
-  width: 2000px;
+  width: 1000px;
+}
+
+.sliderr img {
+  width: 300px;
 }
 
 
@@ -361,7 +367,8 @@ footer {
   }
 
   .cart img {
-    width: 25vw;
+    width: 7vw;
+    margin-left: 20px;
   }
 
   .l {
@@ -388,4 +395,18 @@ footer {
   display: none;
 }
 
+
+@media (max-width: 700px) {
+  .cart img {
+    width: 10vw;
+
+  }
+}
+
+@media (max-width: 500px) {
+  .cart img {
+    width: 12vw;
+
+  }
+}
 

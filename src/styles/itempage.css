@@ -19,12 +19,12 @@
 .nameops {
     margin: 10px;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 60px;
     display: flex;
 }
 .nmif {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .nameops h1 {
@@ -208,9 +208,7 @@
 
 
 .hhg img {
-    width: calc(60% - 10px);
-    border-radius: 16px;
-    border: 1px solid rgb(233, 233, 233);
+    width: calc(40% - 10px);
     
 }
 
@@ -256,17 +254,25 @@
 
 @media (max-width: 1050px) {
     .nameops {
-        display: inline;
+        display: block;
+    }
+
+    .nameops {
+        text-align: center;
+    }
+    
+
+    .hhg{
+        margin-top: 100px;
+    }
+
+
+    .ssil {
+        display: none;
     }
 }
 
 
 @media (max-width: 500px) {
 
-    .hhg{
-        margin-top: 100px;
-    }
-    .ssil {
-        display: none;
-    }
 }

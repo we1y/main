@@ -30,7 +30,7 @@ export const questions = [
         id: 4,
         text: "Обычно делаете мало ошибок в письменных работах?",
         options: [
-          { id: 9, text: "Да", score: 1 },
+          { id: 9, text: "Да", score: 0 },
           { id: 10, text: "Нет", score: 1 },
           { id: 11, text: "Не знаю", score: 2 },
         ]
@@ -66,7 +66,7 @@ export const questions = [
         id: 8,
         text: "Считают, что у Вас есть способности к работе с техникой?",
         options: [
-          { id: 21, text: "Да", score: 3 },
+          { id: 21, text: "Да", score: 2 },
           { id: 22, text: "Нет", score: 0 },
           { id: 23, text: "Не знаю", score: 2 },
         ]
@@ -93,7 +93,7 @@ export const questions = [
         id: 11,
         text: "Результаты Вашего технического творчества одобряют даже незнакомые люди?",
         options: [
-          { id: 30, text: "Да", score: 2 },
+          { id: 30, text: "Да", score: 1 },
           { id: 31, text: "Нет", score: 0 },
           { id: 32, text: "Не знаю", score: 2 },
         ]

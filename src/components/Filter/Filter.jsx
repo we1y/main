@@ -95,7 +95,6 @@ $(window).scroll(function() {
           
         <h1>Мы поможем тебе определиться с профессией</h1>
         <p>25 специальностей в 6 филиалах – у нас ты точно найдешь свое место во взрослой жизни и получишь современное образование</p>
-        {/* <i class="material-symbols-outlined">search</i> */}
         <input 
         placeholder='Поиск по специальностям и отраслям'
         onChange={(e) => setSearchTerm(e.target.value)}

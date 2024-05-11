@@ -17,8 +17,8 @@ export default function Footer() {
         <img src={logo} alt=""/>
         <p>© 2024 Красногорский колледж. Возрастное ограничение 12+. Все права защищены</p>
         <div className="icons">
-          <a href=""><box-icon type='logo' name='vk'></box-icon></a>
-          <a href=""><box-icon name='telegram' type='logo' ></box-icon></a>
+          <a href="https://vk.com/krstckollege"><box-icon type='logo' name='vk'></box-icon></a>
+          <a href="https://t.me/krasnogorskyicollege"><box-icon name='telegram' type='logo' ></box-icon></a>
         </div>
       </div>
       <div className="footer-content">

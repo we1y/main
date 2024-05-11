@@ -1,6 +1,7 @@
 import React, {  useRef } from 'react';
 import Carousel from 'react-elastic-carousel';
-import Photo from '../assets/findir.svg'
+import Photo from '../assets/asdadaaa.png'
+import { data } from './Filter/constants/MOCK_DATA';
 
 export default function Slider() {
 
@@ -18,7 +19,7 @@ export default function Slider() {
 
     const itemsPerPage = 1
     const carouselRef = useRef(null);
-    const totalPages = Math.ceil(items.length / itemsPerPage)
+    const totalPages = Math.ceil(data.length / itemsPerPage)
     let resetTimeout;
 
 
@@ -40,12 +41,12 @@ export default function Slider() {
         clearTimeout(resetTimeout)
         if (index + 1 === totalPages) {
            resetTimeout = setTimeout(() => {
-              // carouselRef.current.goTo(0) // багнутая хуета
+              // carouselRef.current.goTo(0) // багнутая
           }, 7000) 
         }
    }}
       >
-        {items.map(item => <div key={item.id}><img src={item.img} alt="" /></div>)}
+        {data.map(data => <div key={data.id}><img src={data.img} alt="" /></div>)}
       </Carousel>
     )
   }

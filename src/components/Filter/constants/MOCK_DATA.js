@@ -1,12 +1,15 @@
-import Photo from '../../../assets/findir.svg'
 import { Link } from 'react-router-dom'
 
+import q from '../../../assets/itemphotos/1.svg'
+import w from '../../../assets/itemphotos/2.svg'
+import e from '../../../assets/itemphotos/3.svg'
+import r from '../../../assets/itemphotos/4.svg'
+import t from '../../../assets/itemphotos/5.svg'
+import y from '../../../assets/itemphotos/6.svg'
+import u from '../../../assets/itemphotos/7.svg'
+import i from '../../../assets/itemphotos/8.svg'
+import o from '../../../assets/itemphotos/9.svg'
 
-const refreshPage = () => {
-    setTimeout(() => {
-        window.location.reload();
-    }, 100)
-}
 
 
 export const data = [
@@ -26,7 +29,7 @@ export const data = [
 
 {
     id: 1,
-    img: Photo,
+    img: q,
     ot:"Безопасность", 
     pr:"Безопасность, Пожарная безопасность, Защита в чрезвычайных ситуациях, Правоохранительная деятельность", 
     fil:"",
@@ -34,9 +37,9 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <Link to='/specialty/1' onClick={refreshPage}>Защита в чрезвычайных ситуациях</Link>
-        <Link to='/specialty/2' onClick={refreshPage}>Пожарная безопасность</Link>
-        <Link to='/specialty/3' onClick={refreshPage}>Правоохранительная деятельность</Link>
+        <Link to='/specialty/1'>Защита в чрезвычайных ситуациях</Link>
+        <Link to='/specialty/2'>Пожарная безопасность</Link>
+        <Link to='/specialty/3'>Правоохранительная деятельность</Link>
     </div>,
     fits: 
     <div>
@@ -49,7 +52,7 @@ export const data = [
 
 {
     id: 2,
-    img: Photo,
+    img: w,
     ot:"IT", 
     pr:"IT, Сетевое и системное администрирование, Информационные системы и программирование, Обеспечение информационной безопасности автоматизированных систем", 
     fil:"",
@@ -57,9 +60,9 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <Link to='/specialty/4' onClick={refreshPage}>Сетевое и системное администрирование</Link>
-        <Link to='/specialty/5' onClick={refreshPage}>Информационные системы и программирование</Link>
-        <Link to='/specialty/6' onClick={refreshPage}>Обеспечение информационной безопасности автоматизированных систем</Link>
+        <Link to='/specialty/4'>Сетевое и системное администрирование</Link>
+        <Link to='/specialty/5'>Информационные системы и программирование</Link>
+        <Link to='/specialty/6'>Обеспечение информационной безопасности автоматизированных систем</Link>
     </div>,
     fits: 
     <div>
@@ -71,7 +74,7 @@ export const data = [
 
 {
     id: 3,
-    img: Photo,
+    img: e,
     ot:"Промышленность", 
     pr:"Промышленность, Производство и эксплуатация оптических И оптико-электронных приборов и систем, Оператор-наладчик металлообрабатывающих станков, Эксплуатация беспилотных авиационных систем, Мастер сельскохозяйственного производства", 
     fil:"",
@@ -79,10 +82,10 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <Link to='/specialty/7' onClick={refreshPage}>Производство и эксплуатацаия оптических и оптико-электронных приборов и систем</Link>
-        <Link to='/specialty/8' onClick={refreshPage}>Оператор-наладчик металлообрабатывающих станков</Link>
-        <Link to='/specialty/9' onClick={refreshPage}>Эксплуатация беспилотных авиационных систем</Link>
-        <Link to='/specialty/10' onClick={refreshPage}>Мастер сельскохозяйственного производства</Link>
+        <Link to='/specialty/7'>Производство и эксплуатацаия оптических и оптико-электронных приборов и систем</Link>
+        <Link to='/specialty/8'>Оператор-наладчик металлообрабатывающих станков</Link>
+        <Link to='/specialty/9'>Эксплуатация беспилотных авиационных систем</Link>
+        <Link to='/specialty/10'>Мастер сельскохозяйственного производства</Link>
     </div>,
     fits: 
     <div>
@@ -94,7 +97,7 @@ export const data = [
 
 {
     id: 4,
-    img: Photo,
+    img: r,
     ot:"Транспорт", 
     pr:"Транспорт, Операционная деятельность в логистике, Мастер по ремонту и обслуживанию автомобилей", 
     fil:"",
@@ -102,8 +105,8 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <Link to='/specialty/11' onClick={refreshPage}>Операционная деятельность в логистике</Link>
-        <Link to='/specialty/12' onClick={refreshPage}>Мастер по ремонту и обслуживанию автомобилей</Link>
+        <Link to='/specialty/11'>Операционная деятельность в логистике</Link>
+        <Link to='/specialty/12'>Мастер по ремонту и обслуживанию автомобилей</Link>
     </div>,
     fits: 
     <div>
@@ -115,7 +118,7 @@ export const data = [
 
 {
     id: 5,
-    img: Photo,
+    img: t,
     ot:"Гостеприимство", 
     pr:"Гостеприимство, Поварское и кондитерское дело, Туризм и гостеприимство", 
     fil:"",
@@ -123,8 +126,8 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <Link to='/specialty/13' onClick={refreshPage}>Поварское и кондитерское дело</Link>
-        <Link to='/specialty/14' onClick={refreshPage}>Туризм и гостеприимство</Link>
+        <Link to='/specialty/13'>Поварское и кондитерское дело</Link>
+        <Link to='/specialty/14'>Туризм и гостеприимство</Link>
     </div>,
     fits: 
     <div>
@@ -136,7 +139,7 @@ export const data = [
 
 {
     id: 6,
-    img: Photo,
+    img: y,
     ot:"Торговля и финансы", 
     pr:"Торговля и финансы, Финансы, Экономика и бухгалтерский учет", 
     fil:"",
@@ -144,8 +147,8 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <Link to='/specialty/15' onClick={refreshPage}>Финансы</Link>
-        <Link to='/specialty/16' onClick={refreshPage}>Экономика и бухгалтерский учет</Link>
+        <Link to='/specialty/15'>Финансы</Link>
+        <Link to='/specialty/16'>Экономика и бухгалтерский учет</Link>
     </div>,
     fits: 
     <div>
@@ -157,7 +160,7 @@ export const data = [
 
 {
     id: 7,
-    img: Photo,
+    img: u,
     ot:"Здравоохранение", 
     pr:"Здравоохранение, Сестринское дело", 
     fil:"",
@@ -165,7 +168,7 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <Link to='/specialty/17' onClick={refreshPage}>Сестринское дело</Link>
+        <Link to='/specialty/17'>Сестринское дело</Link>
     </div>,
     fits: 
     <div>
@@ -177,7 +180,7 @@ export const data = [
 
 {
     id: 8,
-    img: Photo,
+    img: i,
     ot:"Образование и социальная сфера", 
     pr:"Образование и социальная сфера, Дошкольное образование, Юриспруденция, Социально – культурная деятельность", 
     fil:"",
@@ -185,9 +188,9 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <Link to='/specialty/18' onClick={refreshPage}>Дошкольное образование</Link>
-        <Link to='/specialty/19' onClick={refreshPage}>Юриспруденция</Link>
-        <Link to='/specialty/20' onClick={refreshPage}>Социально – культурная деятельность</Link>
+        <Link to='/specialty/18'>Дошкольное образование</Link>
+        <Link to='/specialty/19'>Юриспруденция</Link>
+        <Link to='/specialty/20'>Социально – культурная деятельность</Link>
     </div>,
     fits: 
     <div>
@@ -199,7 +202,7 @@ export const data = [
 
 {
     id: 9,
-    img: Photo,
+    img: o,
     ot:"Строительство", 
     pr:"Строительство, Эксплуатация и обслуживание многоквартирного дома, Мастер отделочных строительных и декоративных работ, Мастер по ремонту и обслуживанию инженерных систем жилищно-коммунального хозяйства, Электромонтажник слаботочных систем, Землеустройство", 
     fil:"",
@@ -207,11 +210,11 @@ export const data = [
     inf: "",
     species: 
     <div>
-        <Link to='/specialty/21' onClick={refreshPage}>Эксплуатация и обслуживание многоквартирного дома</Link>
-        <Link to='/specialty/22' onClick={refreshPage}>Мастер отделочных строительных и декоративных работ</Link>
-        <Link to='/specialty/23' onClick={refreshPage}>Мастер по ремонту и обслуживанию инженерных систем жилищно-коммунального хозяйства</Link>
-        <Link to='/specialty/24' onClick={refreshPage}>Электромонтажник слаботочных систем</Link>
-        <Link to='/specialty/25' onClick={refreshPage}>Землеустройство</Link>
+        <Link to='/specialty/21'>Эксплуатация и обслуживание многоквартирного дома</Link>
+        <Link to='/specialty/22'>Мастер отделочных строительных и декоративных работ</Link>
+        <Link to='/specialty/23'>Мастер по ремонту и обслуживанию инженерных систем жилищно-коммунального хозяйства</Link>
+        <Link to='/specialty/24'>Электромонтажник слаботочных систем</Link>
+        <Link to='/specialty/25'>Землеустройство</Link>
     </div>,
     fits: 
     <div>

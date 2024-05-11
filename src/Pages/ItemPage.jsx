@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import '../styles/itempage.css'
 import  { data }  from '../components/Filter/constants/MOCK_DATA'
 import ScrollButton from '../components/ScrollButton'
-import img from '../assets/asdadaaa.png'
+
 
 
 
@@ -33,7 +33,7 @@ const infoToShow = data.find((item) => item.id === Number(id));
 
 
         <div className="nameops">
-        <img src={img} alt=""/>
+        <img src={infoToShow.img} alt=""/>
 
         <div className="nmif">
               <h1>{infoToShow.ot}</h1>
