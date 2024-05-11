@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b75b7c2.css",
-    "main.js": "/static/js/main.4ba11b22.js",
+    "main.css": "/static/css/main.f27fc193.css",
+    "main.js": "/static/js/main.908bd0dd.js",
     "static/media/diplom_img2.jpg": "/static/media/diplom_img2.bf6dda7641e16c039c1a.jpg",
     "static/media/17.jpeg": "/static/media/17.f4ada5be7f900421b998.jpeg",
     "static/media/13.jpeg": "/static/media/13.4a89dd424f12e7d5eb67.jpeg",
@@ -24,17 +24,41 @@
     "static/media/8.jpeg": "/static/media/8.799caa19efa5ea1905f0.jpeg",
     "static/media/19.jpeg": "/static/media/19.a8836964347110e95980.jpeg",
     "static/media/14.jpeg": "/static/media/14.60ddbd1a544f255865d0.jpeg",
-    "static/media/findir.svg": "/static/media/findir.5036cfdb7a81f7bad99f795d6e4817df.svg",
     "static/media/pixeldigivolvecyrillic.svg": "/static/media/pixeldigivolvecyrillic.d618b86f33d7eaecf61148629695de23.svg",
     "static/media/asdadaaa.png": "/static/media/asdadaaa.812190c9383b8095a672.png",
     "static/media/profile.png": "/static/media/profile.8e03315de81131b9341b.png",
     "static/media/headlogo.png": "/static/media/headlogo.5e87d85f1450fa57a49e.png",
+    "static/media/18.svg": "/static/media/18.266a40931884c50c20ce82de129b4da1.svg",
+    "static/media/19.svg": "/static/media/19.266a40931884c50c20ce82de129b4da1.svg",
+    "static/media/20.svg": "/static/media/20.266a40931884c50c20ce82de129b4da1.svg",
+    "static/media/21.svg": "/static/media/21.266a40931884c50c20ce82de129b4da1.svg",
+    "static/media/22.svg": "/static/media/22.266a40931884c50c20ce82de129b4da1.svg",
+    "static/media/23.svg": "/static/media/23.266a40931884c50c20ce82de129b4da1.svg",
+    "static/media/24.svg": "/static/media/24.266a40931884c50c20ce82de129b4da1.svg",
+    "static/media/25.svg": "/static/media/25.266a40931884c50c20ce82de129b4da1.svg",
+    "static/media/9.svg": "/static/media/9.27f68a2e81a8d5b4d2280d648fc754a7.svg",
+    "static/media/13.svg": "/static/media/13.b0f2d0cf495335a4675f0f1bf1508031.svg",
+    "static/media/14.svg": "/static/media/14.97adaebd05b3c1824b6332161f640624.svg",
+    "static/media/17.svg": "/static/media/17.da158df1fc89d7e2ca0002aebd94e18b.svg",
+    "static/media/8.svg": "/static/media/8.f862816d2b608db2e5360f677df6ed48.svg",
+    "static/media/4.svg": "/static/media/4.356742e31e9a55b34db9aa1383421e86.svg",
+    "static/media/15.svg": "/static/media/15.c9a1d326d7a3f66687e5ed182c5d8d57.svg",
+    "static/media/5.svg": "/static/media/5.890cf0b3ba973f795b81c5f2518c1433.svg",
+    "static/media/3.svg": "/static/media/3.30bde92a0b5cad0355544244cacd9754.svg",
+    "static/media/6.svg": "/static/media/6.6ed7b153e0a43de02f89fcce33b7872e.svg",
+    "static/media/12.svg": "/static/media/12.0d2a829500db4f37256e083732904c69.svg",
+    "static/media/16.svg": "/static/media/16.c3aa97c64928040b4c409967a0b456eb.svg",
+    "static/media/7.svg": "/static/media/7.7964cbe26dde80411d129214aced9201.svg",
+    "static/media/1.svg": "/static/media/1.c00704ffaa4f6d776a74815eac2af4c9.svg",
+    "static/media/11.svg": "/static/media/11.bc3490f8053571bf4595ecdd9992b73b.svg",
+    "static/media/10.svg": "/static/media/10.bd6c3b2aff253c5f64e534b6395a85fd.svg",
+    "static/media/2.svg": "/static/media/2.5728034536f5b83309b2b7d188ef5d7b.svg",
     "index.html": "/index.html",
-    "main.4b75b7c2.css.map": "/static/css/main.4b75b7c2.css.map",
-    "main.4ba11b22.js.map": "/static/js/main.4ba11b22.js.map"
+    "main.f27fc193.css.map": "/static/css/main.f27fc193.css.map",
+    "main.908bd0dd.js.map": "/static/js/main.908bd0dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b75b7c2.css",
-    "static/js/main.4ba11b22.js"
+    "static/css/main.f27fc193.css",
+    "static/js/main.908bd0dd.js"
   ]
 }
