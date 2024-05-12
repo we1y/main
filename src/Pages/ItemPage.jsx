@@ -37,7 +37,7 @@ const infoToShow = data.find((item) => item.id === Number(id));
 
         <div className="nmif">
               <h1>{infoToShow.ot}</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minima, esse eaque sint sequi optio, aspernatur voluptatum exercitationem molestias maxime provident dolore aperiam perspiciatis, nisi recusandae molestiae! Consequatur, amet cupiditate!</p>
+              <p>{infoToShow.inf}</p>
           
               <div className="blockscont">
         </div>

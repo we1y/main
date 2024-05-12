@@ -55,16 +55,6 @@
     color: black;
 }
 
-.infs {
-    display: flex;
-    align-items: start;
-    padding: 100px 10px;
-    text-align: start;
-}
-
-.infs img {
-    width: 300px;
-}
 
 .blockscont {
     display: flex;
@@ -209,7 +199,7 @@
 
 .hhg img {
     width: calc(40% - 10px);
-    
+    border-radius: 16px;
 }
 
 
@@ -255,10 +245,16 @@
 @media (max-width: 1050px) {
     .nameops {
         display: block;
+        text-align: center;
     }
 
-    .nameops {
-        text-align: center;
+    .nmif{
+        text-align: left;
+    }
+
+    .nmif {
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
 
@@ -270,9 +266,16 @@
     .ssil {
         display: none;
     }
+
+    .hhg img {
+        width: calc(50% - 10px);
+    }
 }
 
 
 @media (max-width: 500px) {
 
+    .hhg img {
+        width: calc(90% - 10px);
+    }
 }

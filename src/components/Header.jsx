@@ -23,11 +23,6 @@ const Header = () => {
 				<NavLink to="/">Главная</NavLink>
 				<NavLink to="/navigator">Навигатор профессий</NavLink>
 				<NavLink to="/proforient">Профориентация</NavLink>
-				<button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
-					<IoClose />
-				</button>
 			</nav>
 			<button
 			style={{marginLeft: 100, marginRight: 50}}

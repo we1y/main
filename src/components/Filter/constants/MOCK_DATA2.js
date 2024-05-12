@@ -1,28 +1,30 @@
-import q from '../../../assets/specialityphotos/1.svg'
-import w from '../../../assets/specialityphotos/2.svg'
-import e from '../../../assets/specialityphotos/3.svg'
-import r from '../../../assets/specialityphotos/4.svg'
-import t from '../../../assets/specialityphotos/5.svg'
-import y from '../../../assets/specialityphotos/6.svg'
-import u from '../../../assets/specialityphotos/7.svg'
-import i from '../../../assets/specialityphotos/8.svg'
-import o from '../../../assets/specialityphotos/9.svg'
-import p from '../../../assets/specialityphotos/10.svg'
-import a from '../../../assets/specialityphotos/11.svg'
-import s from '../../../assets/specialityphotos/12.svg'
-import d from '../../../assets/specialityphotos/13.svg'
-import f from '../../../assets/specialityphotos/14.svg'
-import g from '../../../assets/specialityphotos/15.svg'
-import h from '../../../assets/specialityphotos/16.svg'
-import j from '../../../assets/specialityphotos/17.svg'
-import k from '../../../assets/specialityphotos/18.svg'
-import l from '../../../assets/specialityphotos/19.svg'
-import z from '../../../assets/specialityphotos/20.svg'
-import x from '../../../assets/specialityphotos/21.svg'
-import c from '../../../assets/specialityphotos/22.svg'
-import v from '../../../assets/specialityphotos/23.svg'
-import b from '../../../assets/specialityphotos/24.svg'
-import n from '../../../assets/specialityphotos/25.svg'
+import agricultural from '../../../assets/specialityphotos/agricultural prod.jpeg'
+import systemadministrator from '../../../assets/specialityphotos/system administrator.jpeg'
+import systemadministrator2 from '../../../assets/specialityphotos/system administrator 2.jpeg'
+import carrep from '../../../assets/specialityphotos/car rep.jpeg'
+import cookingbaking from '../../../assets/specialityphotos/cooking&baking.jpeg'
+import emergency from '../../../assets/specialityphotos/emergency.jpeg'
+import firedept from '../../../assets/specialityphotos/fire dept.jpeg'
+import hotels from '../../../assets/specialityphotos/hotels.jpeg'
+import infosec from '../../../assets/specialityphotos/infosec.jpeg'
+import optics from '../../../assets/specialityphotos/optics.jpeg'
+import logistics from '../../../assets/specialityphotos/logistics.jpeg'
+import metalprocessing from '../../../assets/specialityphotos/metalprocessing.jpeg'
+import police from '../../../assets/specialityphotos/police.jpeg'
+import programmer from '../../../assets/specialityphotos/programmer.jpeg'
+import decor from '../../../assets/specialityphotos/decor.jpeg'
+import economyaccounting from '../../../assets/specialityphotos/economy&accounting.jpeg'
+import finance from '../../../assets/specialityphotos/finance.jpeg'
+import multiflat from '../../../assets/specialityphotos/multi-flat building maintance.jpeg'
+import lowcurrentsystems from '../../../assets/specialityphotos/low current systems.jpeg'
+import law from '../../../assets/specialityphotos/law.jpeg'
+import utilityservices from '../../../assets/specialityphotos/utility services.jpeg'
+import preschooled from '../../../assets/specialityphotos/preschool ed.jpeg'
+import landman from '../../../assets/specialityphotos/land man.jpeg'
+import socculact from '../../../assets/specialityphotos/soc cul act.jpeg'
+import nursing from '../../../assets/specialityphotos/nursing.jpeg'
+import UAV from '../../../assets/specialityphotos/UAV.jpeg'
+
 
 
 export const secData = [
@@ -38,7 +40,7 @@ export const secData = [
 
 {
     id: 1,
-    img: q,
+    img: emergency,
     pr: 'Защита в чрезвычайных ситуациях',
     ot: 'Безопасность',
     time: <p>3 года 10 мес.</p>,
@@ -63,7 +65,7 @@ export const secData = [
 
 {
     id: 2,
-    img: w,
+    img: firedept,
     pr: 'Пожарная безопасность',
     ot: 'Безопасность',
     time: <p>3 года 10 мес.</p>,
@@ -89,7 +91,7 @@ export const secData = [
 
 {
     id: 3,
-    img: e,
+    img: police,
     pr: 'Правоохранительная деятельность',
     ot: 'Безопасность',
     time: <p>3 года 6 мес.</p>,
@@ -116,7 +118,7 @@ export const secData = [
 
 {
     id: 4,
-    img: r,
+    img: systemadministrator,
     pr: 'Сетевое и системное администрирование',
     ot: 'IT',
     time: <p>3 года 10 мес.</p>,
@@ -142,7 +144,7 @@ export const secData = [
 
 {
     id: 5,
-    img: t,
+    img: programmer,
     pr: 'Информационные системы и программирование',
     ot: 'IT',
     time: <p>3 года 10 мес.</p>,
@@ -168,7 +170,7 @@ export const secData = [
 },
 {
     id: 6,//
-    img: y,
+    img: infosec,
     pr: 'Обеспечение информационной безопасности автоматизированных систем',
     ot: 'IT',
     time: <p>3 года 10 мес.</p>,
@@ -198,7 +200,7 @@ export const secData = [
 },
 {
     id: 7,
-    img: u,
+    img: optics,
     pr: 'Производство и эксплуатация оптических и оптико-электронных приборов и систем',
     ot: 'Промышленность',
     time: <p>3 года 10 мес.</p>,
@@ -224,7 +226,7 @@ export const secData = [
 },
 {
     id: 8,
-    img: i,
+    img: metalprocessing,
     pr: 'Оператор-наладчик металлообрабатывающих станков',
     ot: 'Промышленность',
     time: <p>1 года 10 мес.</p>,
@@ -251,7 +253,7 @@ export const secData = [
 },
 {
     id: 9,//
-    img: o,
+    img: UAV,
     pr: 'Эксплуатация беспилотных авиационных систем',
     ot: 'Промышленность',
     time: <p>3 года 10 мес.</p>,
@@ -281,7 +283,7 @@ export const secData = [
 },
 {
     id: 10,
-    img: p,
+    img: agricultural,
     pr: 'Мастер сельскохозяйственного производства',
     ot: 'Промышленность',
     time: <p>3 года 10 мес.</p>,
@@ -307,7 +309,7 @@ export const secData = [
 },
 {
     id: 11,
-    img: a,
+    img: logistics,
     pr: 'Операционная деятельность в логистике',
     ot: 'Транспорт',
     time: <p>2 года 10 мес.</p>,
@@ -336,7 +338,7 @@ export const secData = [
 },
 {
     id: 12,
-    img: s,
+    img: carrep,
     pr: 'Мастер по ремонту и обслуживанию автомобилей',
     ot: 'Транспорт',
     time: <p>1 года 10 мес.</p>,
@@ -365,7 +367,7 @@ export const secData = [
 },
 {
     id: 13,
-    img: d,
+    img: cookingbaking,
     pr: 'Поварское и кондитерское дело',
     ot: 'Гостеприимство',
     time: <p>3 года 10 мес.</p>,
@@ -395,7 +397,7 @@ export const secData = [
 },
 {
     id: 14,
-    img: f,
+    img: hotels,
     pr: 'Туризм и гостеприимство',
     ot: 'Гостеприимство',
     time: <p>2 года 10 мес.</p>,
@@ -422,7 +424,7 @@ export const secData = [
 },
 {
     id: 15,
-    img: g,
+    img: finance,
     pr: 'Финансы',
     ot: 'Торговля и финансы',
     time: <p>2 года 10 мес.</p>,
@@ -451,7 +453,7 @@ export const secData = [
 },
 {
     id: 16,
-    img: h,
+    img: economyaccounting,
     pr: 'Экономика и бухгалтерский учет',
     ot: 'Торговля и финансы',
     time: <p>3 года 10 мес.</p>,
@@ -483,7 +485,7 @@ export const secData = [
 
 {
     id: 17,
-    img: j,
+    img: nursing,
     pr: 'Сестринское дело',
     ot: 'Здравоохранение',
     time: <p>2 года 10 мес.</p>,
@@ -512,7 +514,7 @@ export const secData = [
 },
 {
     id: 18,//
-    img: k,
+    img: preschooled,
     pr: 'Дошкольное образование',
     ot: 'Образование и социальная среда',
     time: <p>3 года 10 мес.</p>,
@@ -543,7 +545,7 @@ export const secData = [
 },
 {
     id: 19,
-    img: l,
+    img: law,
     pr: 'Юриспруденция',
     ot: 'Образование и социальная среда',
     time: <p>2 года 10 мес. - 3 года 10 мес.</p>,
@@ -574,7 +576,7 @@ export const secData = [
 },
 {
     id: 20,
-    img: z,
+    img: socculact,
     pr: 'Социально – культурная деятельность',
     ot: 'Образование и социальная среда',
     time: <p>2 года 10 мес. - 3 года 10 мес.</p>,
@@ -601,7 +603,7 @@ export const secData = [
 },
 {
     id: 21,//
-    img: x,
+    img: multiflat,
     pr: 'Эксплуатация и обслуживание многоквартирного дома',
     ot: 'Строительство',
     time: <p>3 года 10 мес.</p>,
@@ -632,7 +634,7 @@ export const secData = [
 },
 {
     id: 22,
-    img: c,
+    img: decor,
     pr: 'Мастер отделочных строительных и декоративных работ',
     ot: 'Строительство',
     time: <p>1 год 10 мес.</p>,
@@ -660,7 +662,7 @@ export const secData = [
 },
 {
     id: 23,
-    img: v,
+    img: utilityservices,
     pr: 'Мастер по ремонту и обслуживанию инженерных систем жилищно-коммунального хозяйства',
     ot: 'Строительство',
     time: <p>1 год 10 мес.</p>,
@@ -685,7 +687,7 @@ export const secData = [
 },
 {
     id: 24,//
-    img: b,
+    img: lowcurrentsystems,
     pr: 'Электромонтажник слаботочных систем',
     ot: 'Строительство',
     time: <p>3 года 10 мес.</p>,
@@ -716,7 +718,7 @@ export const secData = [
 
 {
     id: 25,
-    img: n,
+    img: landman,
     pr: 'Землеустройство',
     ot: 'Строительство',
     time: <p>3 года 10 мес.</p>,
