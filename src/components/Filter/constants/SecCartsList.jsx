@@ -13,6 +13,7 @@ const SecCartsList = ({ secCartsList, searchTerm }) => {
                         img={secCart.img}
                         pr={secCart.pr}
                         ot={secCart.ot}
+                        top={secCart.top}
                     />
                     </Link>
                 )

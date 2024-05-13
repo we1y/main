@@ -118,6 +118,7 @@ export const secData = [
 
 {
     id: 4,
+    top: <div className='top1'>ТОП-50</div>,
     img: systemadministrator,
     pr: 'Сетевое и системное администрирование',
     ot: 'IT',
@@ -144,6 +145,7 @@ export const secData = [
 
 {
     id: 5,
+    top: <div className='top2'>ТОП-50</div>,
     img: programmer,
     pr: 'Информационные системы и программирование',
     ot: 'IT',
@@ -177,16 +179,10 @@ export const secData = [
     form: 
     <ul>
         <li>Очная</li>
-        <li>Заочная</li>
     </ul>,  
     fil: 
     <ul>
         <li>Красногорск</li>
-        <li>Тучково</li>
-        <li>Волоколамск</li>
-        <li>Звенигород</li>
-        <li>Шаховская</li>
-        <li>Истра</li>
     </ul>,
     skills: 
     <div>
@@ -226,6 +222,7 @@ export const secData = [
 },
 {
     id: 8,
+    top: <div className='top3'>ТОП-50</div>,
     img: metalprocessing,
     pr: 'Оператор-наладчик металлообрабатывающих станков',
     ot: 'Промышленность',
@@ -260,16 +257,10 @@ export const secData = [
     form: 
     <ul>
         <li>Очная</li>
-        <li>Заочная</li>
     </ul>,  
     fil: 
     <ul>
-        <li>Красногорск</li>
-        <li>Тучково</li>
         <li>Волоколамск</li>
-        <li>Звенигород</li>
-        <li>Шаховская</li>
-        <li>Истра</li>
     </ul>,
     skills: 
     <div>
@@ -338,6 +329,7 @@ export const secData = [
 },
 {
     id: 12,
+    top: <div className='top4'>ТОП-50</div>,
     img: carrep,
     pr: 'Мастер по ремонту и обслуживанию автомобилей',
     ot: 'Транспорт',
@@ -367,6 +359,7 @@ export const secData = [
 },
 {
     id: 13,
+    top: <div className='top5'>ТОП-50</div>,
     img: cookingbaking,
     pr: 'Поварское и кондитерское дело',
     ot: 'Гостеприимство',
@@ -397,6 +390,7 @@ export const secData = [
 },
 {
     id: 14,
+    top: <div className='top6'>ТОП-50</div>,
     img: hotels,
     pr: 'Туризм и гостеприимство',
     ot: 'Гостеприимство',
@@ -521,16 +515,10 @@ export const secData = [
     form: 
     <ul>
         <li>Очная</li>
-        <li>Заочная</li>
     </ul>,  
     fil: 
     <ul>
-        <li>Красногорск</li>
-        <li>Тучково</li>
         <li>Волоколамск</li>
-        <li>Звенигород</li>
-        <li>Шаховская</li>
-        <li>Истра</li>
     </ul>,
     skills: 
     <div>
@@ -606,19 +594,13 @@ export const secData = [
     img: multiflat,
     pr: 'Эксплуатация и обслуживание многоквартирного дома',
     ot: 'Строительство',
-    time: <p>3 года 10 мес.</p>,
+    time: <p>2 года 10 мес.</p>,
     form: 
     <ul>
         <li>Очная</li>
-        <li>Заочная</li>
     </ul>,  
     fil: 
     <ul>
-        <li>Красногорск</li>
-        <li>Тучково</li>
-        <li>Волоколамск</li>
-        <li>Звенигород</li>
-        <li>Шаховская</li>
         <li>Истра</li>
     </ul>,
     skills: 
@@ -634,6 +616,7 @@ export const secData = [
 },
 {
     id: 22,
+    top: <div className='top7'>ТОП-50</div>,
     img: decor,
     pr: 'Мастер отделочных строительных и декоративных работ',
     ot: 'Строительство',
@@ -690,20 +673,14 @@ export const secData = [
     img: lowcurrentsystems,
     pr: 'Электромонтажник слаботочных систем',
     ot: 'Строительство',
-    time: <p>3 года 10 мес.</p>,
+    time: <p>1 год 10 мес.</p>,
     form: 
     <ul>
         <li>Очная</li>
-        <li>Заочная</li>
     </ul>,  
     fil: 
     <ul>
-        <li>Красногорск</li>
-        <li>Тучково</li>
         <li>Волоколамск</li>
-        <li>Звенигород</li>
-        <li>Шаховская</li>
-        <li>Истра</li>
     </ul>,
     skills: 
     <div>

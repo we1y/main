@@ -74,8 +74,7 @@ nav {
 
 	header nav {
 		position: fixed;
-		left: -100vh;
-		left: 0;
+		left: -108vh;
 		height: 100%;
 		width: 100%;
 		display: flex;
@@ -83,7 +82,6 @@ nav {
 		align-items: center;
 		gap: 1.5rem;
 		background-color: rgb(246,248,252);
-		
         z-index: 2;
 		top: 58px;
 		padding-top: 50px;

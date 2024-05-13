@@ -9,8 +9,7 @@ const Cart = ({  ot, img }) => {
         
         <div className="cart">
             <img src={img} alt="" />
-            <div className="prtext">{ot}</div>    
-            <div className=""></div>
+            <div className="prtext">{ot}</div>
         </div>
        
 
