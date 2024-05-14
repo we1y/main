@@ -144,7 +144,26 @@
 .collegeimg {
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    
 }
+
+.collegeimg img {
+    width: calc(50% - 10px);
+}
+.collegeinfo:hover > .collegeimg{
+
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+  }
 
 .collegeinfo h1 {
     font-size: 35px;
@@ -156,7 +175,51 @@
     color: rgb(49, 49, 49);
 }
 
+.chatbot {
+    margin-top: 50px;
+    width: 350px;
+    display: none;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 11px;
+    z-index: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
+
+
+.chatbot__active {
+    display: inline-block;
+}
+
+.chatbot button{
+    cursor: pointer;
+}
+
+.chatbot a {
+    color: black;
+    font-size: 15px;
+}
+
+.questimg__inactive {
+    display: none;
+}
+
+.closeb {
+    font-size: 22px;
+    cursor: pointer;
+    background-color: rgb(0, 91, 238);
+    padding: 7px;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+.closeb:hover {
+    background-color: rgb(0, 98, 255);
+}
+
+.chatbot div {
+    margin-top: 0;
+}
 
 
 @keyframes scroll {
@@ -187,9 +250,6 @@
 
 @media (max-width: 1600px) {
 
-    .downarr {
-        margin-top: 110px;
-    }
 
     .dipimg img{
         width: 60%;
@@ -197,13 +257,8 @@
 
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1050px) {
 
-
-
-    .collegeimg {
-        display: none;
-    }
 
     .collegetext h1 {
         font-size: 30px;
@@ -214,11 +269,15 @@
         font-size: 16px;
     }
 
-    
-
-    .downarr {
-        display: none;
+    .collegeinfo {
+        display: flex;
+        flex-direction: column-reverse;
     }
+
+    .collegeimg img {
+        width: calc(40% - 10px);
+    }
+
 
 
     .otkr h1 {
@@ -233,6 +292,8 @@
     .otkr {
         padding-top: 80px;
     }
+
+    
 
 
 }

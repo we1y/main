@@ -17,7 +17,7 @@ header {
 	position: fixed;
     width: 100%;
     top: 0;
-    z-index: 2;
+    z-index: 100000;
 }
 
 .navlogo {
@@ -74,7 +74,7 @@ nav {
 
 	header nav {
 		position: fixed;
-		left: -108vh;
+		top: -150vh;
 		height: 100%;
 		width: 100%;
 		display: flex;
@@ -83,12 +83,12 @@ nav {
 		gap: 1.5rem;
 		background-color: rgb(246,248,252);
         z-index: 2;
-		top: 58px;
 		padding-top: 50px;
+
 	}
 
 	header .responsive_nav {
-		transform: translateX(108vh);
+		transform: translateY(158vh);
 	}
 
 	nav a {

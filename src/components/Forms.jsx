@@ -20,7 +20,7 @@ export default function Forms() {
         
         <div className="fortext">
         <h1>Формы обучения</h1>
-        <p>Выберите формат, с которым ваще обучение будет более удобным </p>
+        <p>Выберите формат, с которым ваше обучение будет более удобным </p>
         </div>
         <div className='formes'>
       <div className='formesbtn'>

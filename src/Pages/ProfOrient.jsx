@@ -8,18 +8,14 @@ import Footer from '../components/Footer'
 import ScrollButton from '../components/ScrollButton'
 import Quiz from '../components/Proforient/Quiz'
 import { VKShareButton } from 'react-share'
-import { IoShare } from 'react-icons/io5'
 
 export default function ProfOrient () {
 
 
 
     const [isOpen, setOpen] = useState(false);
-    const shareUrl = 'atlas.krtsc.ru/proforient'
+    const shareUrl = 'navigator.krtsc.ru/proforient'
 
-    const refreshPage = ()=>{
-      window.location.reload();
-   }
 
 
   

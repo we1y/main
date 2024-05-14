@@ -101,6 +101,7 @@
     list-style-type: none;
     max-width: 350px;
     margin-top: 20px;
+    
 }
 
 .species h1 {
@@ -113,19 +114,22 @@
     text-decoration: none;
     color: black;
     font-size: 18px;
-    font-weight: 400;
-    padding: 10px;
-    border: 1px solid rgb(233, 233, 233);
+    font-weight: 600;
+    padding: 12px 10px;
+    border: 2px solid #0062ff;
     margin-bottom: 10px;
     border-radius: 10px;
     display: flex;
     transition: .3s ease-in-out;
+    color: #0062ff;
+    
 }
 
 .species a:hover {
     background-color: #0062ff;
     color: white;
     border-color: #0062ff;
+    transform: translateX(10px);
     
 }
 

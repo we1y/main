@@ -12,6 +12,10 @@ import { VKShareButton } from 'react-share'
 import Forms from '../components/Forms'
 import quest from '../assets/profile.png'
 import Gallery from '../components/Gallery'
+import ChatBot from 'react-simple-chatbot';
+import { ThemeProvider } from 'styled-components';
+import profmin from '../assets/znakmin.png'
+import usermin from '../assets/profilemin.png'
 
 import q from '../assets/collegephoto/1.jpeg'
 import w from '../assets/collegephoto/2.jpeg'
@@ -34,6 +38,19 @@ import t2 from '../assets/collegephoto/18.jpeg'
 import y2 from '../assets/collegephoto/19.jpeg'
 import u2 from '../assets/collegephoto/20.jpeg'
 import i2 from '../assets/collegephoto/21.jpeg'
+import { IoClose } from 'react-icons/io5'
+
+
+const theme = {
+  background: '#f5f8fb',
+  headerBgColor: '#0062ff',
+  headerFontColor: '#fff',
+  headerFontSize: '16px',
+  botBubbleColor: '#0062ff',
+  botFontColor: 'white',
+  userBubbleColor: '#0062ff',
+  userFontColor: 'white',
+};
 
 
 
@@ -67,14 +84,16 @@ const images = [
 
 
 
+
+
+
 export default function Main() {
 
 
   const [isOpen, setOpen] = useState(false);
 
-    const shareUrl = 'atlas.krtsc.ru'
-
-  
+    const shareUrl = 'navigator.krtsc.ru'
+    const [botIsOpen, setBotIsOpen] = useState(false);
 
 
   return (
@@ -83,14 +102,13 @@ export default function Main() {
     <ContextMenuButton />
     <ScrollButton />
     <Header />
-    
     <div className='mainsss'>
     <div className="items">
     <div className="otkr">
     <Tooltip id="my-tooltip-click" events={['click']} />
     <Tooltip id="my-dtooltip" className='tooltip'/>
       <h1>Мы обязательно поможем тебе с выбором</h1>
-      <p>Быстрый и удобный сервис для поиска специальности</p>
+      <p>Быстрый и удобный сервис для поиска специальности в Красногорском колледже</p>
       <div className="clpbtns">
       <Link to='/navigator'>Навигатор профессий</Link>
       <VKShareButton url={shareUrl} title="Лучший сервис по подбору профессии" style={{marginLeft: 20, color: '#262626'}} data-tooltip-id="my-dtooltip" data-tooltip-content='Поделиться'><span className='material-symbols-outlined'>share</span></VKShareButton>
@@ -100,16 +118,112 @@ export default function Main() {
       <div className="collegeinfo">
         <div className="collegetext">
         <h1>
-          Профессиональное образование в Московской области
+          Возникли вопросы?
           </h1>
-          <p>Различные направления подготовки: от технологий до экономики и управления,
- современные лаборатории и оборудование для практических занятий, опытные преподаватели
-  с индустриальным опытом, широкие возможности для стажировок и трудоустройства,
-   а также комфортные условия для обучения и отдыха</p>
+          <p>Воспользуйся нашим виртуальным помощником для получения какой-либо информации, он проконсультирует вас по поводу нашего сервиса и колледжа в целом</p>
    </div>
    <div className="collegeimg">
-    <img src={quest} width={200} />
+    <img src={quest} width={200} onClick={() => setBotIsOpen(!botIsOpen)} className={`questimg ${botIsOpen ? "questimg__inactive" : ""}`}/>
    </div>
+
+
+
+
+   <div>
+        <ThemeProvider theme={theme}>
+        <ChatBot 
+        botDelay={2000}
+        botAvatar={profmin}
+        userAvatar={usermin}
+        headerTitle={<IoClose className='closeb' onClick={() => setBotIsOpen(!botIsOpen)}></IoClose>}
+        footerStyle={{display: 'none'}}
+        className={`chatbot ${botIsOpen ? "chatbot__active" : ""}`}
+        steps={[
+      {
+        id: '1',
+        message: 'Привет, я Ваш виртуальный помощник чего бы Вы хотели узнать?',
+        trigger: '2',
+      },
+      {
+        id: '2',
+        options: [
+          { value: 1, label: 'Подробнее о сервисе', trigger: '11' },
+          { value: 2, label: 'Информация о колледже', trigger: '10' },
+          { value: 3, label: 'Навигатор профессий', trigger: '3' },
+          { value: 4, label: 'Профориентационное тестирование', trigger: '8' },
+          { value: 5, label: 'Поступление', trigger: '9' },
+          { value: 6, label: 'Связаться с нами', trigger: '12' },
+        ],
+      },
+      {
+        id: '3',
+        component: (
+            <Link to='/navigator'>Навигатор профессий</Link>
+            
+          ),
+        trigger: '2',
+      },
+      {
+        id: '6',
+        message: 'Всего Вам хорошего, с Вами приятно было пообщаться!',
+        trigger: '7'
+      },
+      {
+        id: '7',
+        options: [
+          { value: 1, label: 'Возник вопрос', trigger: '2' },
+        ],
+      },
+      {
+        id: '8',
+        component: (
+            <Link to='/proforient'>Профориентационное тестирование</Link>
+          ),
+        trigger: '2',
+        
+      },
+      {
+        id: '9',
+        message: 'Очно, во время приемной комиссии либо позвонить: +7 (498) 568-48-20, +7 (936) 173-78-89',
+        trigger: '2',
+      },
+      {
+        id: '10',
+        message: 'Красногорский колледж — среднее специальное учебное заведение в Красногорске. Позволяет обеспечить высокое качество подготовки специалистов. В Колледже создан Деловой центр профессионального обучения, где студенты приобретают навыки в области менеджмента, маркетинга, продвижения товаров оптического приборостроения, умения и навыки делового общения, ведения переговоров с синхронным переводом',
+        trigger: '2'
+      },
+      {
+        id: '11',
+        message: 'Сервис создан для помощи абитуриентам в выборе профессии. C ним, подбор станет не только проще, но и приятнее',
+        trigger: '2'
+      }
+      ,
+      {
+        id: '12',
+        message: '8 (495) 563-79-88 mo_krasnkoll@mosreg.ru',
+        trigger: '2'
+      }
+    ]}/>
+
+    </ThemeProvider>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
       <Forms />
       <div className="diplom">
@@ -124,7 +238,7 @@ export default function Main() {
       </div>
 
       <Gallery images={images}/>
-      
+
       </div>
 
     </div>

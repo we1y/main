@@ -101,7 +101,6 @@ $(window).scroll(function() {
         />
         </div>
         <div className="sliderr">
-          {/* <h1>При поддержке:</h1> */}
         <Slider />
         </div>
         </div>
