@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8befa574.css",
-    "main.js": "/static/js/main.cd72d577.js",
+    "main.css": "/static/css/main.3ff95fd8.css",
+    "main.js": "/static/js/main.3cc29087.js",
     "static/media/diplom_img2.jpg": "/static/media/diplom_img2.bf6dda7641e16c039c1a.jpg",
     "static/media/17.jpeg": "/static/media/17.f4ada5be7f900421b998.jpeg",
     "static/media/13.jpeg": "/static/media/13.4a89dd424f12e7d5eb67.jpeg",
@@ -55,23 +55,24 @@
     "static/media/preschool ed.jpeg": "/static/media/preschool ed.28469e63e77a07582553.jpeg",
     "static/media/economy&accounting.jpeg": "/static/media/economy&accounting.4e6aeb073a7a6ea29349.jpeg",
     "static/media/19.jpeg": "/static/media/19.a8836964347110e95980.jpeg",
-    "static/media/logom.png": "/static/media/logom.50f09106512633cbe86b.png",
     "static/media/14.jpeg": "/static/media/14.60ddbd1a544f255865d0.jpeg",
     "static/media/security.jpeg": "/static/media/security.2bc00227af02695a38cb.jpeg",
+    "static/media/eb978114-bdf5-4ed1-8e6f-6cc134379659.png": "/static/media/eb978114-bdf5-4ed1-8e6f-6cc134379659.d893aa6d0e99584930a6.png",
     "static/media/pixeldigivolvecyrillic.svg": "/static/media/pixeldigivolvecyrillic.630e773e607b52e1cec88f70a715561c.svg",
     "static/media/nursing.jpeg": "/static/media/nursing.d05244a09b4deb22b929.jpeg",
+    "static/media/55bb89bb-ab6f-4c0a-80dc-3c00d2750991.png": "/static/media/55bb89bb-ab6f-4c0a-80dc-3c00d2750991.dc096147ca941ac96f76.png",
     "static/media/asdadaaa.png": "/static/media/asdadaaa.812190c9383b8095a672.png",
-    "static/media/profile.png": "/static/media/profile.8e03315de81131b9341b.png",
+    "static/media/1280px-KMZ_logo.svg.png": "/static/media/1280px-KMZ_logo.svg.219c3f892e5dda92b9e9.png",
+    "static/media/profile.png": "/static/media/profile.300ed27aa7570a4f8b82.png",
     "static/media/5-1.png": "/static/media/5-1.bcce8de092f8da9fd5d7.png",
-    "static/media/ambli.jpg": "/static/media/ambli.d52d63773a5d01e59a46.jpg",
     "static/media/6.png": "/static/media/6.6ab7d42e757ff32f6499.png",
     "static/media/headlogo.png": "/static/media/headlogo.5e87d85f1450fa57a49e.png",
     "index.html": "/index.html",
-    "main.8befa574.css.map": "/static/css/main.8befa574.css.map",
-    "main.cd72d577.js.map": "/static/js/main.cd72d577.js.map"
+    "main.3ff95fd8.css.map": "/static/css/main.3ff95fd8.css.map",
+    "main.3cc29087.js.map": "/static/js/main.3cc29087.js.map"
   },
   "entrypoints": [
-    "static/css/main.8befa574.css",
-    "static/js/main.cd72d577.js"
+    "static/css/main.3ff95fd8.css",
+    "static/js/main.3cc29087.js"
   ]
 }
