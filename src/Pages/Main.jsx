@@ -48,8 +48,8 @@ const theme = {
   headerFontSize: '16px',
   botBubbleColor: '#0062ff',
   botFontColor: 'white',
-  userBubbleColor: '#0062ff',
-  userFontColor: 'white',
+  userBubbleColor: 'white',
+  userFontColor: 'black',
 };
 
 
@@ -120,7 +120,7 @@ export default function Main() {
         <h1>
           Возникли вопросы?
           </h1>
-          <p>Воспользуйся нашим виртуальным помощником для получения какой-либо информации, он проконсультирует вас по поводу нашего сервиса и колледжа в целом</p>
+          <p>Я виртуальный помощник и готов помочь вам с вопросами, которые у вас возникнут. Постараюсь ответить максимально информативно и быстро. Я был создан для того, чтобы облегчить ваше взаимодействие с ресурсом и сделать ваше пребывание здесь приятным и продуктивным</p>
    </div>
    <div className="collegeimg">
     <img src={quest} width={200} onClick={() => setBotIsOpen(!botIsOpen)} className={`questimg ${botIsOpen ? "questimg__inactive" : ""}`}/>
@@ -132,11 +132,13 @@ export default function Main() {
    <div>
         <ThemeProvider theme={theme}>
         <ChatBot 
+        headerComponent={<div className='bottitle'><p>Виртуальный помощник</p><IoClose className='closeb' onClick={() => setBotIsOpen(!botIsOpen)}></IoClose></div>}
         botDelay={2000}
         botAvatar={profmin}
         userAvatar={usermin}
-        headerTitle={<IoClose className='closeb' onClick={() => setBotIsOpen(!botIsOpen)}></IoClose>}
-        footerStyle={{display: 'none'}}
+        hideSubmitButton
+        footerStyle={{display:'none'}}
+        placeholder='Воспользуйтесь подсказками'
         className={`chatbot ${botIsOpen ? "chatbot__active" : ""}`}
         steps={[
       {
@@ -202,7 +204,10 @@ export default function Main() {
         id: '12',
         message: '8 (495) 563-79-88 mo_krasnkoll@mosreg.ru',
         trigger: '2'
-      }
+      },
+      
+
+      
     ]}/>
 
     </ThemeProvider>

@@ -93,6 +93,12 @@
     border-radius: 8px;
   }
 
+  .mores h1 {
+    font-size: 22px;
+    margin: 40px 15px 20px 10px;
+    font-weight: 600;
+  }
+
   .species {
     margin-left: 10px;
     margin-right: 10px;

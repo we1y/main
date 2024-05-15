@@ -71,7 +71,12 @@ useScript(infoToShow.vac)
             </div>
 
             <div className='fills'>
-            <h1>Филлиалы</h1>
+            <h1>Квалификация</h1>
+            <p></p>
+            </div>
+
+            <div className='fills'>
+            <h1>Место обучения</h1>
             <p>{infoToShow.fil}</p>
             </div>
         </div>
@@ -96,6 +101,7 @@ useScript(infoToShow.vac)
           </div>
 
         <div className="mores">
+          <h1>Где ты сможешь работать</h1>
           <div className="hh-script"></div>
           </div>
 
