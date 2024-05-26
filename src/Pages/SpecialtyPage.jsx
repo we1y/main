@@ -72,7 +72,7 @@ useScript(infoToShow.vac)
 
             <div className='fills'>
             <h1>Квалификация</h1>
-            <p></p>
+            <p>{infoToShow.qualification}</p>
             </div>
 
             <div className='fills'>
