@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.29cc962d.css",
-    "main.js": "/static/js/main.d296582a.js",
+    "main.js": "/static/js/main.61c7d1ca.js",
     "static/media/diplom_img2.jpg": "/static/media/diplom_img2.bf6dda7641e16c039c1a.jpg",
     "static/media/emergency.jpeg": "/static/media/emergency.dca5372d82488f8b3c1a.jpeg",
     "static/media/17.jpeg": "/static/media/17.f4ada5be7f900421b998.jpeg",
     "static/media/13.jpeg": "/static/media/13.4a89dd424f12e7d5eb67.jpeg",
     "static/media/3.jpeg": "/static/media/3.7f2dbc318250c9b3ba29.jpeg",
     "static/media/18.jpeg": "/static/media/18.f2c5ed50be7fc90ed30c.jpeg",
+    "static/media/police.jpeg": "/static/media/police.3d815bc0affc3fb7afdb.jpeg",
     "static/media/16.jpeg": "/static/media/16.3bb92d0bff6b90327ff3.jpeg",
     "static/media/21.jpeg": "/static/media/21.51de60a6b7fc9c7f9793.jpeg",
     "static/media/5.jpeg": "/static/media/5.a5a64916c7f341d76bef.jpeg",
@@ -55,7 +56,6 @@
     "static/media/economy&accounting.jpeg": "/static/media/economy&accounting.4e6aeb073a7a6ea29349.jpeg",
     "static/media/19.jpeg": "/static/media/19.a8836964347110e95980.jpeg",
     "static/media/14.jpeg": "/static/media/14.60ddbd1a544f255865d0.jpeg",
-    "static/media/police.jpeg": "/static/media/police.e76c7210a33e03f060d9.jpeg",
     "static/media/eb978114-bdf5-4ed1-8e6f-6cc134379659.png": "/static/media/eb978114-bdf5-4ed1-8e6f-6cc134379659.d893aa6d0e99584930a6.png",
     "static/media/pixeldigivolvecyrillic.svg": "/static/media/pixeldigivolvecyrillic.630e773e607b52e1cec88f70a715561c.svg",
     "static/media/nursing.jpeg": "/static/media/nursing.d05244a09b4deb22b929.jpeg",
@@ -69,10 +69,10 @@
     "static/media/headlogo.png": "/static/media/headlogo.5e87d85f1450fa57a49e.png",
     "index.html": "/index.html",
     "main.29cc962d.css.map": "/static/css/main.29cc962d.css.map",
-    "main.d296582a.js.map": "/static/js/main.d296582a.js.map"
+    "main.61c7d1ca.js.map": "/static/js/main.61c7d1ca.js.map"
   },
   "entrypoints": [
     "static/css/main.29cc962d.css",
-    "static/js/main.d296582a.js"
+    "static/js/main.61c7d1ca.js"
   ]
 }
