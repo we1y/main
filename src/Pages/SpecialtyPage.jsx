@@ -70,7 +70,7 @@ useScript(infoToShow.vac)
             {infoToShow.time}
             </div>
 
-            <div className='fills'>
+            <div className='fls'>
             <h1>Квалификация</h1>
             <p>{infoToShow.qualification}</p>
             </div>
