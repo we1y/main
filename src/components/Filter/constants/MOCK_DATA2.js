@@ -24,6 +24,7 @@ import landman from '../../../assets/specialityphotos/land man.jpeg'
 import socculact from '../../../assets/specialityphotos/soc cul act.jpeg'
 import nursing from '../../../assets/specialityphotos/nursing.jpeg'
 import UAV from '../../../assets/specialityphotos/UAV.jpeg'
+import profess from '../../../assets/godaddy/servis_2024.png'
 
 
 
@@ -43,7 +44,7 @@ export const secData = [
     qualification: 'Техник-спасатель',
     img: emergency,
     pr: 'Защита в чрезвычайных ситуациях',
-    profess: <div className='profess4'>Профессионалитет</div>,
+    profess: <img src={profess} className='profess4'/>,
     ot: 'Безопасность',
     time: <p>3 года 10 мес.</p>,
     form: 
@@ -70,7 +71,7 @@ export const secData = [
     qualification: 'Специалист по пожарной безопасности',
     img: firedept,
     pr: 'Пожарная безопасность',
-    profess: <div className='profess5'>Профессионалитет</div>,
+    profess: <img src={profess} className='profess5'/>,
     ot: 'Безопасность',
     time: <p>3 года 10 мес.</p>,
     form: 
@@ -98,7 +99,7 @@ export const secData = [
     qualification: 'Юрист',
     img: police,
     pr: 'Правоохранительная деятельность',
-    profess: <div className='profess6'>Профессионалитет</div>,
+    profess: <img src={profess} className='profess6'/>,
     ot: 'Безопасность',
     time: <p>3 года 6 мес.</p>,
     form: 
@@ -126,7 +127,7 @@ export const secData = [
     id: 4,
     qualification: 'Сетевой и системный администратор',
     top: <div className='top1'>ТОП-50</div>,
-    profess: <div className='profess2'>Профессионалитет</div>,
+    profess: <img src={profess} className='profess2'/>,
     img: systemadministrator,
     pr: 'Сетевое и системное администрирование',
     ot: 'IT',
@@ -155,7 +156,7 @@ export const secData = [
     id: 5,
     qualification: 'Программист',
     top: <div className='top2'>ТОП-50</div>,
-    profess: <div className='profess1'>Профессионалитет</div>,
+    profess: <img src={profess} className='profess1'/>,
     img: programmer,
     pr: 'Информационные системы и программирование',
     ot: 'IT',
@@ -236,7 +237,7 @@ export const secData = [
     id: 8,
     qualification: 'Оператор-наладчик металлообрабатывающих станков',
     top: <div className='top3'>ТОП-50</div>,
-    profess: <div className='profess3'>Профессионалитет</div>,
+    profess: <img src={profess} className='profess3'/>,
     img: metalprocessing,
     pr: 'Оператор-наладчик металлообрабатывающих станков',
     ot: 'Промышленность',
@@ -319,7 +320,7 @@ export const secData = [
     qualification: 'Операционный логист',
     img: logistics,
     pr: 'Операционная деятельность в логистике',
-    profess: <div className='profess8'>Профессионалитет</div>,
+    profess: <img src={profess} className='profess8'/>,
     ot: 'Транспорт',
     time: <p>2 года 10 мес.</p>,
     form: 
@@ -380,7 +381,7 @@ export const secData = [
     id: 13,
     qualification: 'Специалист по поварскому и кондитерскому делу',
     top: <div className='top5'>ТОП-50</div>,
-    profess: <div className='profess7'>Профессионалитет</div>,
+    profess: <img src={profess} className='profess7'/>,
     img: cookingbaking,
     pr: 'Поварское и кондитерское дело',
     ot: 'Гостеприимство',
@@ -414,7 +415,7 @@ export const secData = [
     id: 14,
     qualification: 'Специалист по туризму и гостеприимству',
     top: <div className='top6'>ТОП-50</div>,
-    profess: <div className='profess9'>Профессионалитет</div>,
+    profess: <img src={profess} className='profess9'/>,
     img: hotels,
     pr: 'Туризм и гостеприимство',
     ot: 'Гостеприимство',
