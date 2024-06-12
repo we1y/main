@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.29cc962d.css",
-    "main.js": "/static/js/main.61c7d1ca.js",
+    "main.css": "/static/css/main.6dff6485.css",
+    "main.js": "/static/js/main.7670a614.js",
     "static/media/diplom_img2.jpg": "/static/media/diplom_img2.bf6dda7641e16c039c1a.jpg",
     "static/media/emergency.jpeg": "/static/media/emergency.dca5372d82488f8b3c1a.jpeg",
     "static/media/17.jpeg": "/static/media/17.f4ada5be7f900421b998.jpeg",
@@ -20,6 +20,7 @@
     "static/media/metalprocessing.jpeg": "/static/media/metalprocessing.14d3999dd36e3ef3b271.jpeg",
     "static/media/9.jpeg": "/static/media/9.17c68c4c9a78ec36fee7.jpeg",
     "static/media/multi-flat building maintance.jpeg": "/static/media/multi-flat building maintance.66c1389d0c1ecfafcfca.jpeg",
+    "static/media/law.jpeg": "/static/media/law.867f194cdec2f8434a76.jpeg",
     "static/media/security.jpeg": "/static/media/security.1081c745debff67d7f3d.jpeg",
     "static/media/low current systems.jpeg": "/static/media/low current systems.c33810e555d24a34e3d8.jpeg",
     "static/media/12.jpeg": "/static/media/12.623055cbbff3abb072ec.jpeg",
@@ -47,7 +48,6 @@
     "static/media/industrial.jpeg": "/static/media/industrial.aa46cd09ffac10f339ee.jpeg",
     "static/media/cooking&baking.jpeg": "/static/media/cooking&baking.e3ce28cff6422273cc72.jpeg",
     "static/media/8.jpeg": "/static/media/8.799caa19efa5ea1905f0.jpeg",
-    "static/media/law.jpeg": "/static/media/law.ccbcca4e45bb0d6faeef.jpeg",
     "static/media/transport&logistics.jpeg": "/static/media/transport&logistics.88657bb94567e5c844d8.jpeg",
     "static/media/optics.jpeg": "/static/media/optics.f3baae6f311e7cfd1a42.jpeg",
     "static/media/hotels.jpeg": "/static/media/hotels.1d21b45e7fe94f766991.jpeg",
@@ -60,19 +60,19 @@
     "static/media/pixeldigivolvecyrillic.svg": "/static/media/pixeldigivolvecyrillic.630e773e607b52e1cec88f70a715561c.svg",
     "static/media/nursing.jpeg": "/static/media/nursing.d05244a09b4deb22b929.jpeg",
     "static/media/health.jpeg": "/static/media/health.d034ef9a000c627662b3.jpeg",
-    "static/media/55bb89bb-ab6f-4c0a-80dc-3c00d2750991.png": "/static/media/55bb89bb-ab6f-4c0a-80dc-3c00d2750991.dc096147ca941ac96f76.png",
+    "static/media/55bb89bb-ab6f-4c0a-80dc-3c00d2750991.png": "/static/media/55bb89bb-ab6f-4c0a-80dc-3c00d2750991.31e42f9fb3f45c685df1.png",
     "static/media/asdadaaa.png": "/static/media/asdadaaa.812190c9383b8095a672.png",
+    "static/media/1280px-KMZ_logo.svg.png": "/static/media/1280px-KMZ_logo.svg.c4ae6fa401c1af7950ee.png",
     "static/media/profile.png": "/static/media/profile.d7f23bcea057926baf57.png",
-    "static/media/1280px-KMZ_logo.svg.png": "/static/media/1280px-KMZ_logo.svg.219c3f892e5dda92b9e9.png",
-    "static/media/5-1.png": "/static/media/5-1.bcce8de092f8da9fd5d7.png",
-    "static/media/6.png": "/static/media/6.6ab7d42e757ff32f6499.png",
+    "static/media/5-1.png": "/static/media/5-1.832f7f9cdb36814cf339.png",
+    "static/media/6.png": "/static/media/6.f3794088b0c437be8b54.png",
     "static/media/headlogo.png": "/static/media/headlogo.5e87d85f1450fa57a49e.png",
     "index.html": "/index.html",
-    "main.29cc962d.css.map": "/static/css/main.29cc962d.css.map",
-    "main.61c7d1ca.js.map": "/static/js/main.61c7d1ca.js.map"
+    "main.6dff6485.css.map": "/static/css/main.6dff6485.css.map",
+    "main.7670a614.js.map": "/static/js/main.7670a614.js.map"
   },
   "entrypoints": [
-    "static/css/main.29cc962d.css",
-    "static/js/main.61c7d1ca.js"
+    "static/css/main.6dff6485.css",
+    "static/js/main.7670a614.js"
   ]
 }
