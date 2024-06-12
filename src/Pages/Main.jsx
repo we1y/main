@@ -16,6 +16,7 @@ import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
 import profmin from '../assets/znakmin.png'
 import usermin from '../assets/profilemin.png'
+import Slider from '../components/Slider'
 
 import q from '../assets/collegephoto/1.jpeg'
 import w from '../assets/collegephoto/2.jpeg'
@@ -39,6 +40,12 @@ import y2 from '../assets/collegephoto/19.jpeg'
 import u2 from '../assets/collegephoto/20.jpeg'
 import i2 from '../assets/collegephoto/21.jpeg'
 import { IoClose } from 'react-icons/io5'
+
+import photo1 from '../assets/godaddy/1280px-KMZ_logo.svg.png'
+import photo2 from '../assets/godaddy/5-1.png'
+import photo3 from '../assets/godaddy/55bb89bb-ab6f-4c0a-80dc-3c00d2750991.png'
+import photo4 from '../assets/godaddy/6.png'
+import photo5 from '../assets/godaddy/eb978114-bdf5-4ed1-8e6f-6cc134379659.png'
 
 
 const theme = {
@@ -79,6 +86,14 @@ const images = [
 
 ];
 
+const imagess = [
+  photo1,
+  photo2,
+  photo3,
+  photo4,
+  photo5
+]
+
 
 
 
@@ -92,7 +107,7 @@ export default function Main() {
 
   const [isOpen, setOpen] = useState(false);
 
-    const shareUrl = 'navigator.krtsc.ru'
+    const shareUrl = 'navigator.krstc.ru'
     const [botIsOpen, setBotIsOpen] = useState(false);
 
 
@@ -111,7 +126,7 @@ export default function Main() {
       <p>Быстрый и удобный сервис для поиска специальности в Красногорском колледже</p>
       <div className="clpbtns">
       <Link to='/navigator'>Навигатор профессий</Link>
-      <VKShareButton url={shareUrl} title="Лучший сервис по подбору профессии" style={{marginLeft: 20, color: '#262626'}} data-tooltip-id="my-dtooltip" data-tooltip-content='Поделиться'><span className='material-symbols-outlined'>share</span></VKShareButton>
+      <VKShareButton url={shareUrl} title="Сервис по подбору профессии в Красногорском колледже" style={{marginLeft: 20, color: '#262626'}} data-tooltip-id="my-dtooltip" data-tooltip-content='Поделиться'><span className='material-symbols-outlined'>share</span></VKShareButton>
       </div>
       </div>
       
@@ -244,6 +259,18 @@ export default function Main() {
 
       <Gallery images={images}/>
 
+      </div>
+
+      <div className='partners'>
+
+        {
+          imagess.map(items => <img key={items} src={items} className='partnersimg'></img>)
+        }
+        
+      </div>
+
+      <div className="partners2">
+        <Slider />
       </div>
 
     </div>

@@ -286,6 +286,117 @@ button.rec-dot:focus {
 }
 
 
+.profess1 {
+  color: white;
+  position: absolute;
+  margin-left: 95px;
+  border-radius: 8px;
+  margin-bottom: 270px;
+  background-color: #0062ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profess2 {
+  color: white;
+  position: absolute;
+  margin-left: 95px;
+  border-radius: 8px;
+  margin-bottom: 250px;
+  background-color: #0062ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profess3 {
+  color: white;
+  position: absolute;
+  margin-left: 95px;
+  border-radius: 8px;
+  margin-bottom: 270px;
+  background-color: #0062ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profess4 {
+  color: white;
+  position: absolute;
+  margin-left: 95px;
+  border-radius: 8px;
+  margin-bottom: 250px;
+  background-color: #0062ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profess5 {
+  color: white;
+  position: absolute;
+  margin-left: 95px;
+  border-radius: 8px;
+  margin-bottom: 230px;
+  background-color: #0062ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profess6 {
+  color: white;
+  position: absolute;
+  margin-left: 95px;
+  border-radius: 8px;
+  margin-bottom: 265px;
+  background-color: #0062ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profess7 {
+  color: white;
+  position: absolute;
+  margin-left: 95px;
+  border-radius: 8px;
+  margin-bottom: 245px;
+  background-color: #0062ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profess8 {
+  color: white;
+  position: absolute;
+  margin-left: 95px;
+  border-radius: 8px;
+  margin-bottom: 270px;
+  background-color: #0062ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.profess9 {
+  color: white;
+  position: absolute;
+  margin-left: 95px;
+  border-radius: 8px;
+  margin-bottom: 225px;
+  background-color: #0062ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+
+
 @media (max-width: 1600px) {
 
 

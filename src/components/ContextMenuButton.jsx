@@ -20,30 +20,44 @@ const ScrollToFirst = () => {
 
 const ScrollToSecond = () => {
     window.scrollTo({
-        top: 580,
+        top: 200,
         behavior: 'smooth'
       });
 }
 
 const ScrollToThird = () => {
     window.scrollTo({
-        top: 1000,
+        top: 500,
         behavior: 'smooth'
       });
 }
 
 const ScrollToFourth = () => {
     window.scrollTo({
-        top: 1300,
+        top: 800,
         behavior: 'smooth'
       });
 }
 
 const ScrollToFifth = () => {
     window.scrollTo({
-        top: 2000,
+        top: 1100,
         behavior: 'smooth'
       });
+}
+
+const ScrollToSix = () => {
+  window.scrollTo({
+      top: 1400,
+      behavior: 'smooth'
+    });
+}
+
+const ScrollToSeven = () => {
+  window.scrollTo({
+      top: 2000,
+      behavior: 'smooth'
+    });
 }
 
 
@@ -58,10 +72,12 @@ const ScrollToFifth = () => {
                     </button>
                     <nav className={`menu__list ${isOpen ? "menu__active" : ""}`}>
                         <li className="menu__item" onClick={ScrollToFirst}>Навигатор профессий</li>
-                        <li className="menu__item" onClick={ScrollToSecond} >Формы обучения</li>
-                        <li className="menu__item" onClick={ScrollToThird}>Диплом</li>
-                        <li className="menu__item" onClick={ScrollToFourth}>Фотогалерея</li>
-                        <li className="menu__item" onClick={ScrollToFifth}>Наши филиалы</li>
+                        <li className="menu__item" onClick={ScrollToSecond}>Виртуальный помощник</li>
+                        <li className="menu__item" onClick={ScrollToThird} >Формы обучения</li>
+                        <li className="menu__item" onClick={ScrollToFourth}>Диплом</li>
+                        <li className="menu__item" onClick={ScrollToFifth}>Фотогалерея</li>
+                        <li className="menu__item" onClick={ScrollToSix}>Партнеры</li>
+                        <li className="menu__item" onClick={ScrollToSeven}>Наши филиалы</li>
                     </nav>
     </div>
   )

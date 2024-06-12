@@ -30,8 +30,8 @@ export default function Footer() {
       <div className="footer-content">
         <h4>КОНТАКТЫ</h4>
         <p>E-mail: mo_krasnkoll@mosreg.ru</p>
-        <p>Приемная комиссия: +7(498)568-48-20</p>
-        <p>Факс: (495)563-36-89</p>
+        <p>Приемная комиссия: +7 (498) 568-48-20</p>
+        <p>Приёмная директора: +7 (495) 562-30-96</p>
       </div>
       </div>
       

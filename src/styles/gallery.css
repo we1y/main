@@ -1,5 +1,6 @@
 .gallery {
     border-top: 1px solid rgb(233, 233, 233);
+    border-bottom: 1px solid rgb(233, 233, 233);
     background-color: rgb(246,248,252);
     padding: 20px;
     justify-content: center;

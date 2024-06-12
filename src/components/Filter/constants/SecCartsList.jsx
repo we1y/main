@@ -14,6 +14,7 @@ const SecCartsList = ({ secCartsList, searchTerm }) => {
                         pr={secCart.pr}
                         ot={secCart.ot}
                         top={secCart.top}
+                        profess={secCart.profess}
                     />
                     </Link>
                 )

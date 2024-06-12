@@ -116,7 +116,10 @@
     transform: translateY(-2px);
 }
 
-
+.partners2 {
+    display: none;
+    margin: 40px 0;
+}
 
 
 
@@ -226,6 +229,16 @@
     margin-top: 0;
 }
 
+.partners {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.partnersimg {
+    max-width: calc(13% - 10px);
+    margin: 0 40px;
+}
+
 
 @keyframes scroll {
     from {
@@ -260,9 +273,18 @@
         width: 60%;
     }
 
+
 }
 
 @media (max-width: 1050px) {
+
+    .partners {
+            display: none;
+    }
+
+    .partners2 {
+        display: block;
+    }
 
 
     .collegetext h1 {
@@ -303,8 +325,10 @@
 
 }
 
-@media (max-width: 500px) {
-
+@media (max-width: 750px) {
+    .partnersimg {
+       
+    }
 
 }
 

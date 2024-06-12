@@ -1,4 +1,4 @@
-const SecCart = ({  pr, img, top }) => {
+const SecCart = ({  pr, img, top, profess }) => {
 
 
     return (
@@ -7,6 +7,7 @@ const SecCart = ({  pr, img, top }) => {
             <img src={img} alt="" />
             <div className="prtext">{pr}</div>    
             {top}
+            {profess}
         </div>
        
 
